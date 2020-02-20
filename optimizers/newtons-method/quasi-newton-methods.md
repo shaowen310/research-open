@@ -8,13 +8,25 @@ Let $$f$$ be the function to be minimized, $$g$$ its gradient and $$h$$ its hess
 
 Define $$s_k = x_{k+1} - x_k$$ and $$y_k = g_{k+1} - g_k$$
 
-#### The BFGS update is given by
+The BFGS update is given by
 
 $$
 \bar{H} = H + \frac{ss^T}{y^Ts}[\frac{y^THy}{y^Ts}+1]-\frac{1}{y^Ts}[sy^TH+Hys^T]
 $$
 
-#### The formula can also be written in product form
+Let
+
+$$
+U(s,y,H) = \frac{ss^T}{y^Ts}[\frac{y^THy}{y^Ts}+1]-\frac{1}{y^Ts}[sy^TH+Hys^T]
+$$
+
+#### Then the sum form can be written as
+
+$$
+\bar{H} = H + U(s,y,H)
+$$
+
+The formula can also be written in product form
 
 $$
 \bar{H}=(I-\rho sy^T)H(I-\rho y s^T)+\rho ss^T
@@ -36,7 +48,7 @@ Note that $$y^THy$$is a scalar.
 
 Let $$v = (I-\rho ys^T)$$
 
-Then [the product form](quasi-newton-methods.md#the-formula-can-also-be-written-in-product-form) can be written as
+#### Then the product form can be written as
 
 $$
 \bar{H}=v^THv+\rho ss^T
@@ -44,7 +56,21 @@ $$
 
 ### Limited-memory BFGS
 
-The BFGS 
+The idea is to drop old correction $$s$$, instead of storing all the corrections to restore the exact Hessian matrix $$H$$, we just store the latest $$m$$corrections.
+
+So for any $$k>m$$, let $$s=k+1-m$$, then $$H_{k+1}$$is given by
+
+$$
+\begin{cases}
+\hat{H}_s = H_0\\
+\text{For } j = s, s+1, ...,k, \;\hat{H}_{j+1}=\hat{H}_j+U(s_j,y_j,\hat{H}_j)\\
+H_{k+1}=\hat{H}_{k+1}
+\end{cases}
+$$
+
+{% hint style="info" %}
+$$H_0$$is diagonal.
+{% endhint %}
 
 ## References
 
