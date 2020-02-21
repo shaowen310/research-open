@@ -1,6 +1,6 @@
 # Table of contents
 
-* [research-open](README.md)
+* [Overview](README.md)
 * [Optimizers](optimizers/README.md)
   * [Gradient Descent](optimizers/gradient-descent/README.md)
     * [Stochastic Gradient Descent](optimizers/gradient-descent/stochastic-gradient-descent.md)
