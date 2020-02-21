@@ -11,7 +11,7 @@ Define $$s_k = x_{k+1} - x_k$$ and $$y_k = g_{k+1} - g_k$$
 The BFGS update is given by
 
 $$
-\bar{H} = H + \frac{ss^T}{y^Ts}[\frac{y^THy}{y^Ts}+1]-\frac{1}{y^Ts}[sy^TH+Hys^T]
+H := H + \frac{ss^T}{y^Ts}[\frac{y^THy}{y^Ts}+1]-\frac{1}{y^Ts}[sy^TH+Hys^T]
 $$
 
 Let
@@ -23,13 +23,13 @@ $$
 #### Then the sum form can be written as
 
 $$
-\bar{H} = H + U(s,y,H)
+H := H + U(s,y,H)
 $$
 
 The formula can also be written in product form
 
 $$
-\bar{H}=(I-\rho sy^T)H(I-\rho y s^T)+\rho ss^T
+H:=(I-\rho sy^T)H(I-\rho y s^T)+\rho ss^T
 $$
 
 where $$\rho = \frac{1}{y^Ts}$$
@@ -51,7 +51,7 @@ Let $$v = (I-\rho ys^T)$$
 #### Then the product form can be written as
 
 $$
-\bar{H}=v^THv+\rho ss^T
+H:=v^THv+\rho ss^T
 $$
 
 ## Limited-memory BFGS

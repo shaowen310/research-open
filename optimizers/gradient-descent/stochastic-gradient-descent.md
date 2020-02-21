@@ -14,5 +14,7 @@ where $$Q_i$$ is typically associated with the $$i$$-th observation in the train
 
 ### Batch gradient descent
 
+
+
 ### Stochastic gradient descent
 
