@@ -1,4 +1,4 @@
-# Quasi-Newton Methods
+# Limited-memory BFGS
 
 ## Broyden–Fletcher–Goldfarb–Shanno algorithm \(BFGS\)
 
@@ -54,7 +54,7 @@ $$
 \bar{H}=v^THv+\rho ss^T
 $$
 
-### Limited-memory BFGS
+## Limited-memory BFGS
 
 The idea is to drop old correction $$s$$, instead of storing all the corrections to restore the exact Hessian matrix $$H$$, we just store the latest $$m$$corrections.
 
