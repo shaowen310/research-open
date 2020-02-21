@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Overview](README.md)
+* [Models](models/README.md)
+  * [Logistic Regression](models/logistic-regression.md)
 * [Optimizers](optimizers/README.md)
   * [Gradient Descent](optimizers/gradient-descent/README.md)
     * [Stochastic Gradient Descent](optimizers/gradient-descent/stochastic-gradient-descent.md)
