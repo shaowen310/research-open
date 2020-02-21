@@ -36,3 +36,7 @@ $$
 
 if $$i$$is picked uniformly at random
 
+## References
+
+1. Zhang, T. \(2004\). Solving large scale linear prediction problems using stochastic gradient descent algorithms. Twenty-first international conference on Machine learning - ICML '04, doi: [10.1145/1015330.1015332](https://doi.org/10.1145/1015330.1015332).
+
