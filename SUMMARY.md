@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Overview](README.md)
+* [Evaluation](evaluation/README.md)
+  * [Precision and Recall](evaluation/precision-and-recall.md)
 * [Models](models/README.md)
   * [Logistic Regression](models/logistic-regression.md)
 * [Optimizers](optimizers/README.md)
