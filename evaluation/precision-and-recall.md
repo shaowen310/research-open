@@ -14,6 +14,14 @@ $$
 \text{Accuracy} = \frac{tp+tn}{tp+tn+fp+fn}
 $$
 
+$$
+\text{Sensitivity} = \text{Recall}
+$$
+
+$$
+\text{Specificity} = \frac{tn}{tn+fp}
+$$
+
 ## Multi label case
 
 $$
