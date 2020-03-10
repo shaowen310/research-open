@@ -20,7 +20,7 @@ $$
 
 To fully evaluate the effectiveness of a model, you must examine **both** precision and recall. Unfortunately, precision and recall are often in tension. That is, improving precision typically reduces recall and vice versa.
 
-![](../.gitbook/assets/precisionvsrecallbase.svg)
+![](../.gitbook/assets/precisionvsrecallbase.png)
 
 ### Sensitivity and specificity
 
