@@ -1,4 +1,4 @@
-# Influential Cases in Regression
+# Detecting Influential Cases in Regression
 
 ## Empirical influence function
 
@@ -14,7 +14,9 @@ $$
 IF_A = \hat{\beta}_A-\hat{\beta}
 $$
 
-$$IF_A$$can be characterised by the distance between $$\hat{\beta}$$and $$\hat{\beta}_A$$.
+## Characterisation of the empirical influence function
+
+$$IF_A$$can be characterised by the distance between $$\hat{\beta}$$and $$\hat{\beta}_A$$\[[1](influential-cases-in-regression.md#references)\].
 
 Let $$M$$be a given positive \(semi\) definite matrix, and $$c$$be a nonzero scale factor, the distance between $$\hat{\beta}$$and $$\hat{\beta}_A$$is defined by
 
@@ -24,9 +26,13 @@ $$
 
 The matrix $$M$$can be chosen to reflect specific interests.
 
-## Case analysis
+## Case analysis of the distance measures
 
+### Deleting one case at a time
 
+The larger $$D_i(M,c)$$is, the more influential case $$i$$is.
+
+### Deleting several cases at a time
 
 ## References
 
