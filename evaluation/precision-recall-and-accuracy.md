@@ -1,7 +1,5 @@
 # Precision, recall and Accuracy
 
-
-
 ## Single label case
 
 ### Precision, recall and accuracy

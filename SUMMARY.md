@@ -4,7 +4,6 @@
 * [Evaluation](evaluation/README.md)
   * [Confusion Matrix](evaluation/confusion-matrix.md)
   * [Precision, recall and Accuracy](evaluation/precision-recall-and-accuracy.md)
-  * [Precision, recall and Accuracy](evaluation/precision-and-recall.md)
 * [Models](models/README.md)
   * [Logistic Regression](models/logistic-regression.md)
 * [Optimizers](optimizers/README.md)
