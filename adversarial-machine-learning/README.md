@@ -4,9 +4,19 @@
 
 ### Poisoning attack
 
+\#training
+
+This attack takes place during the training phase. The adversary tries to poison the training data to compromise the trained model.
+
 ### Evasion attack
 
+\#testing
+
+This attack takes place during the testing phase. The adversary tries to evade the system by adjusting testing samples.
+
 ### Exploratory attack
+
+This adversary tries to gain knowledge about the learning algorithm of the underlying system and pattern in training data.
 
 ## Defense strategies
 
