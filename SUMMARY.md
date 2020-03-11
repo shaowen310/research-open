@@ -15,5 +15,7 @@
 * [Fairness in Data Sharing](fairness-in-data-sharing/README.md)
   * [Detecting Influential Cases in Regression](fairness-in-data-sharing/influential-cases-in-regression.md)
 * [Adversarial Machine Learning](adversarial-machine-learning/README.md)
+  * [Exploratory Attack](adversarial-machine-learning/exploratory-attack/README.md)
+    * [Model Inversion Attack](adversarial-machine-learning/exploratory-attack/model-inversion-attack.md)
   * [Poisoning Attack](adversarial-machine-learning/poisoning-attack.md)
 
