@@ -5,6 +5,7 @@
   * [Confusion Matrix](evaluation/confusion-matrix.md)
   * [Precision, recall and Accuracy](evaluation/precision-recall-and-accuracy.md)
 * [Models](models/README.md)
+  * [Bayesian Statistics](models/bayesian-statistics.md)
   * [Logistic Regression](models/logistic-regression.md)
 * [Optimizers](optimizers/README.md)
   * [Gradient Descent](optimizers/gradient-descent/README.md)
