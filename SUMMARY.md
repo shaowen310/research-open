@@ -14,5 +14,6 @@
       * [Limited-memory BFGS](optimizers/newtons-method/quasi-newton-methods/limited-memory-bfgs.md)
 * [Fairness in Data Sharing](fairness-in-data-sharing/README.md)
   * [Detecting Influential Cases in Regression](fairness-in-data-sharing/influential-cases-in-regression.md)
-* [Adversarial Machine Learning](adversarial-machine-learning.md)
+* [Adversarial Machine Learning](adversarial-machine-learning/README.md)
+  * [Untitled](adversarial-machine-learning/untitled.md)
 
