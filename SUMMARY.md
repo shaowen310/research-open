@@ -5,6 +5,7 @@
   * [Confusion Matrix](evaluation/confusion-matrix.md)
   * [Precision, recall and Accuracy](evaluation/precision-recall-and-accuracy.md)
 * [Models](models/README.md)
+  * [Linear Regression](models/linear-regression.md)
   * [Bayesian Statistics](models/bayesian-statistics/README.md)
     * [Maximum A Posteriori \(MAP\)](models/bayesian-statistics/maximum-a-posteriori-map.md)
   * [Logistic Regression](models/logistic-regression.md)
