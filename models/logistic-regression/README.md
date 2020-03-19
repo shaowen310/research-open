@@ -6,5 +6,7 @@ It is used for binary classification. For data with more than 2 classes, softmax
 
 Objective function
 
+Convex programming
+
 Optimiser choices: gradient descent, Newton's method
 
