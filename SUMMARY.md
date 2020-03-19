@@ -15,6 +15,7 @@
     * [Boosting Trees](models/decision-trees/boosting-trees.md)
   * [Bayesian Statistics](models/bayesian-statistics/README.md)
     * [Maximum A Posteriori \(MAP\)](models/bayesian-statistics/maximum-a-posteriori-map.md)
+  * [Deep Learning](models/deep-learning.md)
 * [Optimizers](optimizers/README.md)
   * [Gradient Descent](optimizers/gradient-descent/README.md)
     * [Stochastic Gradient Descent](optimizers/gradient-descent/stochastic-gradient-descent.md)
