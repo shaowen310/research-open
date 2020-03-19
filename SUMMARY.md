@@ -17,7 +17,7 @@
   * [Bayesian Statistics](models/bayesian-statistics/README.md)
     * [Maximum A Posteriori \(MAP\)](models/bayesian-statistics/maximum-a-posteriori-map.md)
   * [Deep Learning](models/deep-learning.md)
-* [Optimizers](optimizers/README.md)
+* [Optimiser](optimizers/README.md)
   * [Convex Programming](optimizers/convex-programming/README.md)
     * [Newton's Method](optimizers/convex-programming/newtons-method/README.md)
       * [Quasi-Newton Methods](optimizers/convex-programming/newtons-method/quasi-newton-methods/README.md)
