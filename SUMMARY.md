@@ -15,6 +15,7 @@
     * [Quasi-Newton Methods](optimizers/newtons-method/quasi-newton-methods/README.md)
       * [Limited-memory BFGS](optimizers/newtons-method/quasi-newton-methods/limited-memory-bfgs.md)
 * [Model Feature Measurements](fairness-in-data-sharing/README.md)
+  * [Shapley Value](fairness-in-data-sharing/shapley-value.md)
   * [Detecting Influential Cases in Regression](fairness-in-data-sharing/influential-cases-in-regression.md)
 * [Adversarial Machine Learning](adversarial-machine-learning/README.md)
   * [Exploratory Attack](adversarial-machine-learning/exploratory-attack/README.md)
