@@ -8,6 +8,7 @@
   * [Linear Regression](models/linear-regression.md)
   * [Logistic Regression](models/logistic-regression.md)
   * [Softmax Regression](models/softmax-regression.md)
+  * [Decision Trees](models/decision-trees.md)
   * [Bayesian Statistics](models/bayesian-statistics/README.md)
     * [Maximum A Posteriori \(MAP\)](models/bayesian-statistics/maximum-a-posteriori-map.md)
 * [Optimizers](optimizers/README.md)
