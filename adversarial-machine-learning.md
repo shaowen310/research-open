@@ -1,2 +1,0 @@
-# Adversarial Machine Learning
-
