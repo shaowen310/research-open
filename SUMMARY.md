@@ -6,6 +6,8 @@
   * [Confusion Matrix](evaluation/confusion-matrix.md)
   * [Precision, recall and Accuracy](evaluation/precision-recall-and-accuracy.md)
 * [Models](models/README.md)
+  * [K-Means](models/k-means.md)
+  * [Gaussian Mixture Model](models/gaussian-mixture-model.md)
   * [Linear Regression](models/linear-regression/README.md)
     * [Polynomial Regression](models/linear-regression/polynomial-regression.md)
   * [Logistic Regression](models/logistic-regression/README.md)
