@@ -55,5 +55,5 @@ One hyper parameter is introduced by the regularization term: $$\lambda$$
 ### Convex programming
 
 1. **Gradient descent** and its family including **Stochastic Gradient Descent \(SGD\)**
-2. **Newton's method**
+2. **Newton's method** and its family
 
