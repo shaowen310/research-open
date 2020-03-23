@@ -48,7 +48,7 @@ $$
 \hat{h} = \underset{h \in \mathcal{H}}{\arg\min}J(h,x,y)
 $$
 
-One hyper parameter is introduced by regularization term: $$\lambda$$
+One hyper parameter is introduced by the regularization term: $$\lambda$$
 
 ## Solver
 
