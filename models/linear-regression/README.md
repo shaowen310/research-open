@@ -10,10 +10,10 @@ $$
 
 ### Loss function
 
-#### Least squares
+#### Square error
 
 $$
-\sum_{i=1}^{n}||y_i-h(x_i)||^2
+L(h(x_i),y_i) = ||y_i-h(x_i)||^2
 $$
 
 #### Empirical risk minimization

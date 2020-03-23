@@ -47,5 +47,9 @@ One hyper parameter is introduced by the regularization term: $$\lambda$$
 
 ### Gradient descent
 
+#### Gradient
 
+$$
+a = b
+$$
 
