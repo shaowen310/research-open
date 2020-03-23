@@ -6,7 +6,7 @@ $$
 h(x) = wx+b
 $$
 
-## Training
+## Training objective
 
 ### Loss function
 
@@ -29,6 +29,8 @@ $$
 $$
 
 #### Regularization term
+
+L2 regularization
 
 $$
 R(h)=||w||^2
@@ -54,9 +56,9 @@ $$
 
 One hyper parameter is introduced by the regularization term: $$\lambda$$
 
-### Solver
+## Solver
 
-#### Convex programming
+### Convex programming
 
 1. **Gradient descent** and its family including **Stochastic Gradient Descent \(SGD\)**
 2. **Newton's method** and its family
