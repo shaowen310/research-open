@@ -1,10 +1,10 @@
 # Logistic Regression
 
-The output of the model is the estimated probability.
-
-It is used for binary classification. For data with more than 2 classes, softmax regression has to be used.
+It is used for binary classification. For data with more than 2 classes, [Softmax Regression](softmax-regression.md) has to be used.
 
 ## Model
+
+The output of the model is the estimated probability.
 
 $$
 h(x) = \text{sigmoid}(wx+b)
@@ -13,17 +13,32 @@ $$
 ### Sigmoid function
 
 $$
-\text{sigmoid}(t) = \frac{1}{1+e^{-t}}
+\text{sigmoid}(z) = \frac{1}{1+e^{-z}}
 $$
+
+### Decision boundary
+
+Let $$p$$ be the threshold, then predict 1 when $$h(x) \geq p$$ , and predict 0 when $$h(x) < p$$ .
 
 ## Training Objective
 
 ### Loss function
 
-Ideas: Empirical risk minimization and regularization. See [Linear Regression](../linear-regression/) for details.
+#### Cross-entropy loss
 
 $$
-J(h,x,y) = \frac{1}{n}\sum_{i=1}^{n}||h(x_i)-y_i||^2+\lambda R(h)
+\begin{cases}
+  L(h(x),y) = -log(h(x)) & \text{if }y=1\\
+  L(h(x),y) = -log(1-h(x)) & \text{if }y=0
+\end{cases}
+$$
+
+For empirical risk minimization and regularization, see [Linear Regression](../linear-regression/) for details.
+
+#### Summary
+
+$$
+J(h,x,y) = \frac{1}{n}\sum_{i=1}^{n}(y_i log(h(x_i)) + (1-y_i)log(1-h(x_i)))+\lambda R(h)
 $$
 
 ### Objective
@@ -50,6 +65,8 @@ One hyper parameter is introduced by the regularization term: $$\lambda$$
 #### Gradient
 
 $$
-a = b
+\frac{\partial J}{\partial w} = \sum_{i=1}^n(h(x_i)-y_i)x_i
 $$
+
+Proof see [http://thegrandjanitor.com/2015/08/20/gradient-descent-for-logistic-regression/](http://thegrandjanitor.com/2015/08/20/gradient-descent-for-logistic-regression/)
 
