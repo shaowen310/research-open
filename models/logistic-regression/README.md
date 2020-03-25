@@ -65,7 +65,7 @@ One hyper parameter is introduced by the regularization term: $$\lambda$$
 #### Gradient
 
 $$
-\frac{\partial J}{\partial w} = \sum_{i=1}^n(h(x_i)-y_i)x_i
+\frac{\partial J}{\partial w} = \frac{1}{n}\sum_{i=1}^n(h(x_i)-y_i)x_i + \lambda w
 $$
 
 Proof see [http://thegrandjanitor.com/2015/08/20/gradient-descent-for-logistic-regression/](http://thegrandjanitor.com/2015/08/20/gradient-descent-for-logistic-regression/)
