@@ -1,3 +1,7 @@
+---
+description: Model and Training Objective and Solver parts are verified on 1/4/2020.
+---
+
 # Logistic Regression
 
 It is used for binary classification. For data with more than 2 classes, [Softmax Regression](softmax-regression.md) has to be used.
