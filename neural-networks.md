@@ -1,4 +1,4 @@
-# Deep Learning
+# Neural Networks
 
 Generalised convex optimisation
 
