@@ -76,5 +76,15 @@ $$\lambda$$ is used to adjust the relative penalty introduced by non-linearly se
 1. **Gradient descent** and its family
 2. **Newton's method** and its family
 
+### Gradient descent
 
+The loss function is a $$C^0$$ function \(in terms of differentiability\), and its first order derivative is not defined at the point where $$y_i(wx_i+b)=1$$ . We use sub-gradient instead.
+
+A vector $$g$$ is a sub-gradient to $$f$$ at point $$x$$ if
+
+$$
+g \leq \frac{f(y) - f(x)}{y-x}
+$$
+
+for all $$y$$ 
 
