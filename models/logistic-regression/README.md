@@ -43,7 +43,7 @@ $$
 \end{cases}
 $$
 
-For empirical risk minimization and regularization, see [Linear Regression](../linear-regression/) for details.
+For empirical risk minimisation and regularisation, see [Linear Regression](../linear-regression/) for details.
 
 #### Summary
 
@@ -59,7 +59,7 @@ $$
 
 ### Objective
 
-The objective is to find the $$\hat{h}$$ which minimizes the loss function
+The objective is to find the $$\hat{h}$$ which minimises the loss function
 
 $$
 \hat{h} = \underset{h \in \mathcal{H}}{\arg\min}J(h,x,y)
@@ -67,13 +67,13 @@ $$
 
 ### Hyper parameters
 
-One hyper parameter is introduced by the regularization term: $$\lambda$$
+$$\lambda$$ is used to adjust the strength of regularisation.
 
 ## Solver
 
 ### Convex programming
 
-1. **Gradient descent** and its family including **Stochastic Gradient Descent \(SGD\)**
+1. **Gradient descent** and its family
 2. **Newton's method** and its family
 
 ### Gradient descent
