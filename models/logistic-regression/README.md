@@ -7,7 +7,13 @@ It is used for binary classification. For data with more than 2 classes, [Softma
 The output of the model is the estimated probability.
 
 $$
-h(x) = \text{sigmoid}(wx+b)
+h(x) = \text{sigmoid}(f(x))
+$$
+
+### Linear term
+
+$$
+f(x) = wx+b
 $$
 
 ### Sigmoid function
@@ -38,13 +44,13 @@ For empirical risk minimization and regularization, see [Linear Regression](../l
 #### Summary
 
 $$
-J(h,x,y) = \frac{1}{n}\sum_{i=1}^{n}(y_i log(h(x_i)) + (1-y_i)log(1-h(x_i)))+\lambda R(h)
+J(h,x,y) = -\frac{1}{n}\sum_{i=1}^{n}(y_i log(h(x_i)) + (1-y_i)log(1-h(x_i)))+\lambda R(h)
 $$
 
 If $$y \in \{1, -1\}$$ , then the loss function is
 
 $$
-J(w,b,x,y) = \frac{1}{n}\sum_{i=1}^n(1+e^{-y_i(wx_i+b)}) + \lambda R(w)
+J(w,b,x,y) = \frac{1}{n}\sum_{i=1}^n log(1+e^{-y_if(x)}) + \lambda R(w)
 $$
 
 ### Objective
@@ -70,7 +76,7 @@ One hyper parameter is introduced by the regularization term: $$\lambda$$
 
 #### Gradient
 
-Note: regularization term is omitted
+Note: regularisation term is omitted
 
 $$
 \frac{\partial J}{\partial w} = \frac{1}{n}\sum_{i=1}^n(h(x_i)-y_i)x_i
