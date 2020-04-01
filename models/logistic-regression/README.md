@@ -79,7 +79,7 @@ $$
 If $$y \in \{1, -1\}$$ , then the gradient is
 
 $$
-\frac{\partial J}{\partial w} = \frac{1}{n}\sum_{i=1}^{n}(\frac{1}{1+e^{-y_i(wx_i+b)}}-1)y_ix_i
+\frac{\partial J}{\partial w} = \frac{1}{n}\sum_{i=1}^{n}(h(y_i x_i)-1)y_ix_i
 $$
 
 Proof see [http://thegrandjanitor.com/2015/08/20/gradient-descent-for-logistic-regression/](http://thegrandjanitor.com/2015/08/20/gradient-descent-for-logistic-regression/)
