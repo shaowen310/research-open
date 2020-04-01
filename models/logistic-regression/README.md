@@ -90,3 +90,7 @@ $$
 
 Proof see [http://thegrandjanitor.com/2015/08/20/gradient-descent-for-logistic-regression/](http://thegrandjanitor.com/2015/08/20/gradient-descent-for-logistic-regression/)
 
+## Logistic Regression and Neural Networks
+
+Logistic regression can be regarded as one layer in neural networks.
+
