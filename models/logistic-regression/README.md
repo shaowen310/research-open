@@ -103,7 +103,7 @@ Sigmoid function is seldom used as nonlinear activation function because:
 1. Vanishing gradient problem.
 2. Its output isn’t zero centred. It makes the gradient updates move along certain directions and therefore makes optimisation harder**.**
 
-Hyperbolic Tangent function - $$ tanh(x) = \frac{1 — e^{-2x}}{1 + e^{-2x}}$$ 
+Hyperbolic Tangent function - $$ tanh(x) = \frac{1 - e^{-2x}}{1 + e^{-2x}}$$ 
 
 Its output is zero centred, and it is preferred over Sigmoid function in practice. However, it still suffers from vanishing gradient problem.
 
