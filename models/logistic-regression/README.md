@@ -98,3 +98,16 @@ Proof see [http://thegrandjanitor.com/2015/08/20/gradient-descent-for-logistic-r
 
 Logistic regression can be regarded as one layer in neural networks.
 
+Sigmoid function is seldom used as nonlinear activation function because:
+
+1. Vanishing gradient problem.
+2. Its output isn’t zero centred. It makes the gradient updates move along certain directions and therefore makes optimisation harder**.**
+
+Hyperbolic Tangent function - $$ tanh(x) = \frac{1 — e^{-2x}}{1 + e^{-2x}}$$ 
+
+Its output is zero centred, and it is preferred over Sigmoid function in practice. However, it still suffers from vanishing gradient problem.
+
+## References
+
+1. [towards data science: Activation functions and it’s types-Which is better?](https://towardsdatascience.com/activation-functions-and-its-types-which-is-better-a9a5310cc8f)
+

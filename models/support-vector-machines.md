@@ -1,6 +1,8 @@
 # Support Vector Machines
 
-Objective function
+## Model
+
+
 
 Optimiser choices:
 
