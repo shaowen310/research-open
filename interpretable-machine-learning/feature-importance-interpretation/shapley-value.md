@@ -21,7 +21,7 @@ $$
 \frac{|F|!}{|S|!(|F|-|S|-1)!1!}
 $$
 
-The inverse is the number of ways to distribute $$|F|$$ different items to three stacks, which have $$|S|$$ , $$|F|-|S|-1$$ , and 1 item respectively.
+It is the number of ways to distribute $$|F|$$ different items to three stacks, which have $$|S|$$ , $$|F|-|S|-1$$ , and 1 item respectively.
 {% endhint %}
 
 The difficulty of calculating Shapley value directly is to consider all the combinations of $$S \subseteq F  \setminus i$$. There are around $$n!$$ choices, not considering the cost of retraining all these models.
