@@ -105,7 +105,7 @@ Let $$u_i = w_A x_i^A + w_B x_i^B + b$$
 ### Loss function
 
 $$
-J(w,b,x,y) = \frac{1}{n}\sum_{i=1}^n log(1+e^{-y_i u_i})
+J = \frac{1}{n}\sum_{i=1}^n log(1+e^{-y_i u_i})
 $$
 
 ### Gradient
