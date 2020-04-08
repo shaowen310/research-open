@@ -94,6 +94,34 @@ $$
 
 Proof see [http://thegrandjanitor.com/2015/08/20/gradient-descent-for-logistic-regression/](http://thegrandjanitor.com/2015/08/20/gradient-descent-for-logistic-regression/)
 
+## Vertically Partitioned Data
+
+We consider two parties' case, and omit the regularisation term for simplicity.
+
+Assume $$y \in \{1, -1\}$$
+
+Let $$u_i = w_A x_i^A + w_B x_i^B + b$$
+
+### Loss function
+
+$$
+J(w,b,x,y) = \frac{1}{n}\sum_{i=1}^n log(1+e^{-y_i u_i})
+$$
+
+### Gradient
+
+$$
+\frac{\partial J}{\partial w_A} = \frac{1}{n}\sum_{i=1}^{n}(\text{sigmoid}(y_i u_i)-1)y_ix_i^A
+$$
+
+$$
+\frac{\partial J}{\partial w_B} = \frac{1}{n}\sum_{i=1}^{n}(\text{sigmoid}(y_i u_i)-1)y_ix_i^B
+$$
+
+$$
+\frac{\partial J}{\partial b} = \frac{1}{n}\sum_{i=1}^{n}(\text{sigmoid}(y_i u_i)-1)y_i
+$$
+
 ## Logistic Regression and Neural Networks
 
 Logistic regression can be regarded as one layer in neural networks.
