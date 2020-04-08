@@ -11,7 +11,7 @@ It is used for binary classification. For data with more than 2 classes, [Softma
 The output of the model is the estimated probability.
 
 $$
-h(x) = \text{sigmoid}(f(x))
+h(x) = S(f(x))
 $$
 
 ### Linear term
@@ -23,7 +23,7 @@ $$
 ### Sigmoid function
 
 $$
-\text{sigmoid}(z) = \frac{1}{1+e^{-z}}
+S(z) = \frac{1}{1+e^{-z}}
 $$
 
 ### Decision boundary
@@ -111,15 +111,15 @@ $$
 ### Gradient
 
 $$
-\frac{\partial J}{\partial w_A} = \frac{1}{n}\sum_{i=1}^{n}(\text{sigmoid}(y_i u_i)-1)y_ix_i^A
+\frac{\partial J}{\partial w_A} = \frac{1}{n}\sum_{i=1}^{n}(S(y_i u_i)-1)y_ix_i^A
 $$
 
 $$
-\frac{\partial J}{\partial w_B} = \frac{1}{n}\sum_{i=1}^{n}(\text{sigmoid}(y_i u_i)-1)y_ix_i^B
+\frac{\partial J}{\partial w_B} = \frac{1}{n}\sum_{i=1}^{n}(S(y_i u_i)-1)y_ix_i^B
 $$
 
 $$
-\frac{\partial J}{\partial b} = \frac{1}{n}\sum_{i=1}^{n}(\text{sigmoid}(y_i u_i)-1)y_i
+\frac{\partial J}{\partial b} = \frac{1}{n}\sum_{i=1}^{n}(S(y_i u_i)-1)y_i
 $$
 
 ## Logistic Regression and Neural Networks
