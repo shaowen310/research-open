@@ -54,7 +54,7 @@ $$
 If $$y \in \{1, -1\}$$ , then the loss function is
 
 $$
-J(w,b,x,y) = \frac{1}{n}\sum_{i=1}^n log(1+e^{-y_if(x)}) + \lambda R(w)
+J(w,b,x,y) = \frac{1}{n}\sum_{i=1}^n log(1+e^{-y_i (wx_i + b)}) + \lambda R(w)
 $$
 
 ### Objective

@@ -19,6 +19,7 @@
   * [K-Means](models/k-means.md)
   * [Gaussian Mixture Model](models/gaussian-mixture-model.md)
 * [Neural Networks](neural-networks/README.md)
+  * [Graph Neural Networks](neural-networks/graph-neural-networks.md)
   * [Word2Vec](neural-networks/word2vec.md)
 * [Optimiser](optimizers/README.md)
   * [Convex Programming](optimizers/convex-programming/README.md)
