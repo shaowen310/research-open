@@ -18,7 +18,7 @@ This attack takes place during the testing phase. The adversary tries to evade t
 
 This adversary tries to gain knowledge about the learning algorithm of the underlying system and pattern in training data.
 
-## Defense strategies
+## Defence strategies
 
 ## References
 
