@@ -48,7 +48,10 @@ For empirical risk minimisation and regularisation, see [Linear Regression](../l
 #### Summary
 
 $$
-J(h,x,y) = -\frac{1}{n}\sum_{i=1}^{n}(y_i log(h(x_i)) + (1-y_i)log(1-h(x_i)))+\lambda R(h)
+\begin{align}
+J(h,x,y) &= -\frac{1}{n}\sum_{i=1}^{n}(y_i log(h(x_i)) + (1-y_i)log(1-h(x_i)))+\lambda R(h) \\
+&= - \frac{1}{n}\sum_{i=1}^{n}(y_i f(x_i)-log(1+e^{f(x_i)})) + \lambda R(h)
+\end{align}
 $$
 
 If $$y \in \{1, -1\}$$ , then the loss function is
