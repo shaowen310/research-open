@@ -14,7 +14,7 @@ Give an environment, an agent learns from the rewards and punishments of its act
 4. Policy: The method to map the agent's state to actions
 5. Value: The future reward that the agent would receive by taking an action at a certain state
 
-#### Algorithms
+#### Frameworks
 
 **Model-based**
 
