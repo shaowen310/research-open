@@ -18,7 +18,7 @@ Give an environment, an agent learns from the rewards and punishments of its act
 
 **Model-based**
 
-Markov Decision Process \(MDP\)
+Markov Decision Processes \(MDPs\)
 
 **Model-free**
 
