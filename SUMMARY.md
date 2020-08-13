@@ -45,4 +45,5 @@
     * [Model Inversion Attack](adversarial-machine-learning/exploratory-attack/model-inversion-attack.md)
   * [Poisoning Attack](adversarial-machine-learning/poisoning-attack.md)
 * [Fuzzy Logic](fuzzy-logic.md)
+* [Reinforcement Learning](reinforcement-learning.md)
 
