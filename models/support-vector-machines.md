@@ -90,5 +90,5 @@ for all $$y$$
 
 ## SVM and Neural Networks
 
-Linear kernel SVM is very similar to a neural network layer which uses ReLU as the activation function.
+Linear kernel SVM is similar to a neural network layer which uses ReLU as the activation function.
 

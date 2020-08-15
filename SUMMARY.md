@@ -46,5 +46,5 @@
   * [Poisoning Attack](adversarial-machine-learning/poisoning-attack.md)
 * [Fuzzy Logic](fuzzy-logic.md)
 * [Reinforcement Learning](reinforcement-learning/README.md)
-  * [Markov Decision Processes \(MDPs\)](reinforcement-learning/markov-decision-processes-mdps.md)
+  * [Finite Markov Decision Processes \(MDPs\)](reinforcement-learning/markov-decision-processes-mdps.md)
 
