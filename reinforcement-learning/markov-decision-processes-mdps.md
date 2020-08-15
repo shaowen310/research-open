@@ -5,8 +5,8 @@
 | Notation | Definition |
 | :--- | :--- |
 | $$t$$ | Timestamp |
-| $$S_t$$ | Random variable state at timestamp $$t$$ |
 | $$\mathcal{S}$$ | Set of all states |
+| $$S_t$$ | Random variable state at timestamp $$t$$ |
 | $$A_t$$ | Random variable action at timestamp $$t$$ |
 | $$\mathcal{A}(s)$$ | Set of all actions at state s |
 | $$R_t$$ | Random variable reward at timestamp $$t$$ |
@@ -14,7 +14,7 @@
 
 ## Model
 
-![](../.gitbook/assets/screenshot-2020-08-15-at-10.31.50-pm.png)
+![](../.gitbook/assets/agent-environment-interaction.png)
 
 
 
