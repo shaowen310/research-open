@@ -7,10 +7,10 @@
 | $$t$$ | Timestamp |
 | $$\mathcal{S}$$ | Set of all states |
 | $$S_t$$ | Random variable state at timestamp $$t$$ |
-| $$A_t$$ | Random variable action at timestamp $$t$$ |
 | $$\mathcal{A}(s)$$ | Set of all actions at state s |
-| $$R_t$$ | Random variable reward at timestamp $$t$$ |
+| $$A_t$$ | Random variable action at timestamp $$t$$ |
 | $$\mathcal{R}$$ | Set of all rewards |
+| $$R_t$$ | Random variable reward at timestamp $$t$$ |
 
 ## Model
 
