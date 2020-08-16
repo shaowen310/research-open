@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Give an environment, an agent learns from the rewards and punishments of its actions and tries to find an environmental state action mapping that would **maximise** its **total cumulative reward**.
+Give an environment, an agent learns from the rewards of its actions and tries to find an environmental state action mapping that would **maximise** its expected **total cumulative reward**.
 
 ### Problem Formulation
 
@@ -17,6 +17,8 @@ Give an environment, an agent learns from the rewards and punishments of its act
 #### Framework
 
 Markov Decision Processes \(MDPs\)
+
+#### Algorithms
 
 Temporal-Difference Learning
 
