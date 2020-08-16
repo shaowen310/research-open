@@ -12,9 +12,33 @@
 | $$\mathcal{R}$$ | Set of all rewards |
 | $$R_t$$ | Random variable reward at timestamp $$t$$ |
 
+Note that $$\mathcal{S},\mathcal{A}(s),\mathcal{R}$$ are finite
+
 ## Model
 
 ![](../.gitbook/assets/agent-environment-interaction.png)
+
+### Dynamics of MDP
+
+$$ p(s',r|s,a) = Pr\{S_t = s', R = r | S_{t-1}=s, A_{t-1}=a\}$$
+
+#### Property
+
+$$ \sum_{s' \in \mathcal{S}, r \in \mathcal{R}}p(s',r|s,a) = 1$$
+
+### State transition
+
+$$p(s'|s,a) = Pr\{S_t=s'|S_{t-1}=s,A_{t-1}=a\} = \sum_{r \in \mathcal{R}}p(s',r|s,a)$$
+
+### Expected reward
+
+#### state - action pair
+
+$$ r(s,a) = \mathbb{E}[R_t|S_{t-1}=s,A_{t-1}=a] = \sum_{s' \in \mathcal{S}, r \in \mathcal{R}}r\cdot p(s',r|s,a)$$
+
+#### state - action - next-state triple
+
+$$ r(s',s,a) = \sum_{r \in \mathcal{R}} r \frac{p(r,s'|s,a)}{p(s'|s,a)}$$
 
 
 
