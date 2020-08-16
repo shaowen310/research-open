@@ -118,7 +118,9 @@ Note: Summation of probability $$\times$$ reward along all possible state transi
 
 ## Optimal Policies and Optimal Value Functions
 
-Let $$v\_\*\(s\)$$
+Let $$v_*(s)$$ be the state-value function for optimal policy $$\pi_*$$ 
+
+
 
 ## References
 
