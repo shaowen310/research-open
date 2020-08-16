@@ -126,7 +126,7 @@ $$q_*(s,a) = \sum_{s',r} p(s',r|s,a)[r + \gamma \underset{a' \in \mathcal{A}(s')
 
 ## Problems
 
-1. The model requires well-defined transition probabilities, which is not always available.
+1. The model requires well-defined transition probabilities, which are not always available.
 2. The design of rewards is not so trivial.
 
 ## References
