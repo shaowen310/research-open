@@ -73,7 +73,7 @@ Continuing tasks: agent-environment interaction goes continually without limit, 
 
 Discounted return
 
-$$G_t = \sum_{k=0}^{\infty}\gamma ^ k R_{t+k+1}$$
+$$G_t = \sum_{k=t+1}^{T}\gamma ^ {k-t-1} R_k$$
 
 where $$0 \le \gamma \le 1 $$
 
