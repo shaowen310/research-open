@@ -122,6 +122,13 @@ Let $$v_*(s)$$ , $$q_*(s,a)$$ be the state-value, action-value function for opti
 
 $$\begin{align*}  v_*(s) & = \underset{a \in \mathcal{A}(s)}{\max}q_*(s,a) \\ &=  \underset{a }{\max} \sum_{s',r}p(s',r|s,a)[r+\gamma v_*(s')] \end{align*}$$
 
+$$q_*(s,a) = \sum_{s',r} p(s',r|s,a)[r + \gamma \underset{a' \in \mathcal{A}(s')}{\max}q_*(s',a') ]$$
+
+## Problems
+
+1. The model requires well-defined transition probabilities, which is not always available.
+2. The design of rewards is not so trivial.
+
 ## References
 
 1. R. S. Sutton and A. G. Barto, Reinforcement learning: An introduction. MIT press, 2018. [Link](https://mitpress.mit.edu/books/reinforcement-learning-second-edition)
