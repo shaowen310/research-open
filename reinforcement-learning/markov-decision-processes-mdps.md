@@ -40,6 +40,18 @@ $$ r(s,a) = \mathbb{E}[R_t|S_{t-1}=s,A_{t-1}=a] = \sum_{s' \in \mathcal{S}, r \i
 
 $$ r(s',s,a) = \sum_{r \in \mathcal{R}} r \frac{p(r,s'|s,a)}{p(s'|s,a)}$$
 
+## Goals and Rewards
+
+Maximise total accumulative rewards in a given long period or until the game ends.
+
+Warning: **not** maximising immediate reward
+
+The reward signal is to tell the agent **what to achieve**, but **not how to achieve it**.
+
+Counter example: if giving rewards if the agent takes the opponent's piece in a chess game, the agent will work towards taking pieces instead of wining the game.
+
+## Returns and Episodes
+
 
 
 ## References
