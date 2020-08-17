@@ -56,7 +56,7 @@ Counter example: if giving rewards if the agent takes the opponent's piece in a 
 
 ## Returns and Episodes
 
-### Notations & definitions
+### Notations and definitions
 
 | Notation | Definition |
 | :--- | :--- |
@@ -85,7 +85,7 @@ $$G_t = R_{t+1} + \gamma G_{t+1}$$
 
 ## Policies and Value Functions
 
-### Notations & definitions
+### Notations and definitions
 
 | Notation | Definition |
 | :--- | :--- |
