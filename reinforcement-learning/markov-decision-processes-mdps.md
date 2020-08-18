@@ -105,7 +105,7 @@ Expected return when starting in $$s$$ , taking the action $$a$$ , and following
 
 Notes
 
-1. Value of any terminal state is zero \(since $$R_k = 0$$ for $$k \ge T+1$$ \)
+1. Value of any terminal state is zero \(since $$R_k = 0$$ for $$k \ge t+1$$ \)
 2. Value functions are time-invariant
 
 ### Bellman equation
