@@ -30,7 +30,7 @@ Starting from one timestamp before the timestamp of the terminal state and going
 
 $$ G = \gamma G + R_{t+1}$$
 
-$$G$$ is the sample return of the state 
+$$G$$ is the sample return of the state at $$t$$.
 
 ## Estimation of the Action-Value Function
 
