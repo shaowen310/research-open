@@ -40,7 +40,7 @@ The idea is similar to the MC estimation of the state-value function.
 
 Many state–action pairs may never be visited.
 
-Solution
+#### Solution
 
 Consider only policies that are stochastic with a nonzero probability of selecting all actions in each state.
 
