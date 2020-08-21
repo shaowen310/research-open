@@ -1,5 +1,9 @@
 # Linear Algebra
 
+## Inner product
+
+$$\mathbf{u} \cdot \mathbf{v} = \mathbf{u}^\intercal \mathbf{v}$$
+
 ## Outer product
 
 Let vector $$\mathbf{u}=(u_1, u_2, ..., u_m)$$, $$\mathbf{v}=(v_1, v_2,  ..., v_n)$$
