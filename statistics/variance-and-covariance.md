@@ -39,7 +39,7 @@ $$c_{i,j} = \mathrm{cov}(X_i, X_j)$$
 #### Property
 
 $$
-\mathbf{C}_\mathbf{X} = \frac{1}{n-1}(\mathbf{X} \mathbf{X}^\intercal) - \mu_\mathbf{X} \mu_\mathbf{X}^\intercal
+\mathbf{C}_\mathbf{X} = \frac{1}{n-1}(\mathbf{X} \mathbf{X}^\intercal - \mu_\mathbf{X} \mu_\mathbf{X}^\intercal)
 $$
 
 where $$\mu_\mathbf{X}$$ is the vector of the sample means for each feature
