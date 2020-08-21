@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Overview](README.md)
+* [Linear Algebra](linear-algebra.md)
 * [Evaluation](evaluation/README.md)
   * [Underfitting / Overfitting](evaluation/underfitting-overfitting.md)
   * [Confusion Matrix](evaluation/confusion-matrix.md)
