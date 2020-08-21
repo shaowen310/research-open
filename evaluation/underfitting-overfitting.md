@@ -1,8 +1,8 @@
 # Underfitting / Overfitting
 
-Underfitting indicates high bias.
+Underfitting -&gt; High bias
 
-Overfitting indicates high variance
+Overfitting -&gt; High variance
 
 ## Solution for overfitting
 
@@ -18,7 +18,7 @@ The validation dataset is used to tune the model hyperparameters.
 
 Randomly choose X% of the training dataset to be the actual training set and the remaining to be the validation set for each round, and iterate multiple rounds.
 
-Test data should not be used for training. It is for evaluation purpose only.
+Test data should not used for training. It is for evaluation purpose only.
 
 ## References
 
