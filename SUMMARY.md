@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Overview](README.md)
+* [Data Science](README.md)
 * [Linear Algebra](linear-algebra.md)
 * [Evaluation](evaluation/README.md)
   * [Underfitting / Overfitting](evaluation/underfitting-overfitting.md)
