@@ -28,7 +28,7 @@ Every-visit MC method estimates $$v_\pi(s)$$ as the **average** of the **returns
 
 Starting from one timestamp before the timestamp of the terminal state and going backwards, and update $$G$$ by
 
-$$ G = \gamma G + R_{t+1}$$
+$$ G := \gamma G + R_{t+1}$$
 
 $$G$$ is the sample return of the state at $$t$$.
 
