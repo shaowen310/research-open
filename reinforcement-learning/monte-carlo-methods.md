@@ -59,4 +59,5 @@ Consider only policies that are stochastic with a nonzero probability of selecti
 ## References
 
 1. R. S. Sutton and A. G. Barto, Reinforcement learning: An introduction. MIT press, 2018. [Link](https://mitpress.mit.edu/books/reinforcement-learning-second-edition)
+2. The University of Edinburgh School of Informatics, Reinforcement learning lecture slides, TD. [Link](http://www.inf.ed.ac.uk/teaching/courses/rl/slides/4rllect10.pdf)
 
