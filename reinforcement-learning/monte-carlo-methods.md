@@ -42,7 +42,7 @@ $$ v_\pi(s) := v_\pi(s) + \alpha(G - v_\pi(s))$$
 
 where $$\alpha$$ is a constant step-size parameter
 
-Note that for first-visit MC method, $$\alpha = 1/n$$ and $$n$$ is the number of first visits to $$s$$ 
+Note that for first-visit MC method, $$\alpha = 1/n$$ and $$n$$ is the number of first visits to $$s$$ so far \(so $$\alpha$$ is not a constant\)
 
 ## Estimation of the Action-value Function
 

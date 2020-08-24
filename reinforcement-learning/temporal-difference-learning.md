@@ -14,7 +14,7 @@ TD replaces $$G_t$$ using DP ideas
 
 $$ V(S_t) := V(S_t) + \alpha (R_{t+1} + \gamma V(S_{t+1}) - V(S_t))$$
 
-Initialisation: initialise $$V(s)$$ arbitrarily for all s except $$V(s_{terminal})=0$$
+Initialisation: initialise $$V(s)$$ **arbitrarily** for all s except $$V(s_{terminal})=0$$
 
 #### Convergence
 
