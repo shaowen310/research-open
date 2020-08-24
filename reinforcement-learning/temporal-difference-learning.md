@@ -18,6 +18,8 @@ Note:
 
 For both methods, initialise $$V(s)$$ **arbitrarily** for all $$s$$ except $$V(s_{terminal})=0$$ .
 
+Why initialising $$V(s)$$  arbitrarily does not matter?
+
 $$ v_n = (1-\alpha)^n v_0 + [1-(1-\alpha)^n]G$$ if $$G$$ is constant. We observe that $$\lim_{n \to \infty}(1-\alpha)^n = 0$$ . Rigorous proof of convergence is provided [here](https://doi.org/10.1023/A:1022632907294).
 
 #### Convergence
