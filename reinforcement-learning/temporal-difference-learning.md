@@ -1,4 +1,4 @@
-# Temporal-Difference Learning
+# Temporal Difference \(TD\) Learning
 
 TD learning is a combination of MC ideas and DP ideas.
 
@@ -50,6 +50,8 @@ Conclusion:
 If the process is Markov, TD estimation is expected to produce lower error on future data than MC estimation. MC estimation fits past \(or existing\) data better.
 
 ### Sarsa: On-policy TD Control
+
+
 
 ### Q-learning: Off-policy TD Control
 

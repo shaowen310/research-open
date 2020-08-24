@@ -51,6 +51,7 @@
 * [Fuzzy Logic](fuzzy-logic.md)
 * [Reinforcement Learning](reinforcement-learning/README.md)
   * [Finite Markov Decision Processes \(MDPs\)](reinforcement-learning/markov-decision-processes-mdps.md)
-  * [Monte Carlo Methods](reinforcement-learning/monte-carlo-methods.md)
-  * [Temporal-Difference Learning](reinforcement-learning/temporal-difference-learning.md)
+  * [Generalised Policy Iteration \(GPI\)](reinforcement-learning/generalised-policy-iteration-gpi.md)
+  * [Monte Carlo \(MC\) Methods](reinforcement-learning/monte-carlo-methods.md)
+  * [Temporal Difference \(TD\) Learning](reinforcement-learning/temporal-difference-learning.md)
 
