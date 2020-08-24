@@ -1,10 +1,10 @@
 # Temporal-Difference Learning
 
-## TD Prediction
-
 TD learning is a combination of MC ideas and DP ideas.
 
-### TD\(0\)
+## TD\(0\)
+
+### Estimation of the State-value Function
 
 Recall constant-$$\alpha$$ MC
 
@@ -18,11 +18,39 @@ Initialisation: initialise $$V(s)$$ arbitrarily for all s except $$V(s_{terminal
 
 #### Convergence
 
-\(Proven\) For any fixed policy $$\pi$$, TD\(0\) has been proved to converge to $$v_\pi$$, in the mean for a constant $$\alpha$$ if it is sufficiently small, and with probability 1 if $$\alpha$$ decreases according to the usual stochastic approximation conditions.
+\(Proved\) For any fixed policy $$\pi$$, TD\(0\) has been proved to converge to $$v_\pi$$, in the mean for a constant $$\alpha$$ if it is sufficiently small, and with probability 1 if $$\alpha$$ decreases according to the usual stochastic approximation conditions.
+
+_Convergence rate_
+
+\(Not proved\) In practice, TD methods have usually been found to converge faster than constant-$$\alpha$$ MC methods on stochastic tasks.
+
+#### Batch update
+
+Train completely on a finite amount of data, e.g., train repeatedly on 10 episodes until convergence. Compute updates according to TD or MC, but **only update estimates after each complete pass through the data**.
+
+Notes:
+
+1. $$\alpha$$ should be sufficiently small to achieve convergence.
+2. Constant-$$\alpha$$ TD and MC converge to different answers.
+
+#### Optimality of TD\(0\)
+
+_Differences between the optimal values achieved by constant-_$$\alpha$$ _MC and TD_
+
+Illustration see [Stanford University reinforcement learning lecture slides](http://web.stanford.edu/class/cme241/lecture_slides/rich_sutton_slides/11-12-TD.pdf) p24 - p30
+
+Conclusion:
+
+If the process is Markov, TD estimation is expected to produce lower error on future data than MC estimation. MC estimation fits past \(or existing\) data better.
+
+### Sarsa: On-policy TD Control
+
+### Q-learning: Off-policy TD Control
 
 
 
 ## References
 
 1. R. S. Sutton and A. G. Barto, Reinforcement learning: An introduction. MIT press, 2018. [Link](https://mitpress.mit.edu/books/reinforcement-learning-second-edition)
+2. Stanford University, cme241 reinforcement learning lecture slides, TD. [Link](http://web.stanford.edu/class/cme241/lecture_slides/rich_sutton_slides/11-12-TD.pdf)
 
