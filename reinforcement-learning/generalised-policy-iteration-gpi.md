@@ -16,7 +16,7 @@ The greedy algorithm is proved to generate a policy that achieves not worse **ex
 
 ## Issues
 
-1. Policy evaluation may not be perfect in some cases \(especially when MC or TD is used and some states are not explored\), GPI may not give the optimal value function and policy.
+1. Policy evaluation may not be perfect \(which means the value function does not converge to the value function for that policy\) in some cases \(especially when MC or TD is used and some states are not explored\), GPI may not give the optimal value function and policy.
 
 ## References
 
