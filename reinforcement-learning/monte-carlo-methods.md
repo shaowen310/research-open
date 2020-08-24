@@ -20,29 +20,17 @@ Generate episodes following the policy $$\pi$$. A sample sequence of states, act
 
 $$ S_0, A_0, R_1, S_1, A_1, R_2, ..., S_{T-1}, A_{T-1}, R_T  (, S_T)$$
 
-First-visit MC method estimates $$v_\pi(s)$$ as the **average** of the **returns following first visits** to $$s$$. \(Only the return following the first visit to $$s$$ in each episode will be used to calculate the estimation of $$v_\pi(s)$$.\)
+First-visit MC method estimates $$v_\pi(s)$$ as the average of the returns **following first visits** to $$s$$. \(Only the return following the first visit to $$s$$ in each episode will be used to calculate the estimation of $$v_\pi(s)$$.\)
 
-Every-visit MC method estimates $$v_\pi(s)$$ as the **average** of the **returns following all visits** to $$s$$.
+Every-visit MC method estimates $$v_\pi(s)$$ as the average of the returns **following all visits** to $$s$$.
 
 #### Calculation of the return
 
 Starting from one timestamp before the timestamp of the terminal state and going backwards, and update $$G$$ by
 
-$$ G := \gamma G + R_{t+1}$$
+$$ G = \gamma G + R_{t+1}$$
 
 $$G$$ is the sample return of the state at $$t$$.
-
-#### Extension: constant-$$\alpha$$ MC update
-
-Used when tracking a non-stationary problem
-
-Initialise $$v_\pi(s)$$ as zero
-
-$$ v_\pi(s) := v_\pi(s) + \alpha(G - v_\pi(s))$$
-
-where $$\alpha$$ is a constant step-size parameter
-
-Note that for first-visit MC method, $$\alpha = 1/n$$ and $$n$$ is the number of first visits to $$s$$ 
 
 ## Estimation of the Action-Value Function
 
@@ -59,5 +47,4 @@ Consider only policies that are stochastic with a nonzero probability of selecti
 ## References
 
 1. R. S. Sutton and A. G. Barto, Reinforcement learning: An introduction. MIT press, 2018. [Link](https://mitpress.mit.edu/books/reinforcement-learning-second-edition)
-2. The University of Edinburgh School of Informatics, Reinforcement learning lecture slides, TD. [Link](http://www.inf.ed.ac.uk/teaching/courses/rl/slides/4rllect10.pdf)
 
