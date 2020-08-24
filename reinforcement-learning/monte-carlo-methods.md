@@ -32,7 +32,7 @@ $$ G := \gamma G + R_{t+1}$$
 
 $$G$$ is the sample return of the state at $$t$$.
 
-#### Incremental update of estimation
+#### Incremental update of the estimation
 
 Initialise $$v_\pi(s)$$ as zero
 
