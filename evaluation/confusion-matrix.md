@@ -1,10 +1,10 @@
 # Confusion Matrix
 
-## Scikit-learn
 
-|  |  | Predicted Class |  |
+
+|   |   | Predicted Class |   |
 | :--- | :--- | :--- | :--- |
-|  |  | Non-A | A |
+|   |   | Non-A | A |
 | Actual Class | Non-A | True Negatives | False Positives |
-|  | A | False Negatives | True Positives |
+|   | A | False Negatives | True Positives |
 
