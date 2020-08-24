@@ -32,9 +32,7 @@ $$ G := \gamma G + R_{t+1}$$
 
 $$G$$ is the sample return of the state at $$t$$.
 
-#### Extension: constant-$$\alpha$$ MC update
-
-Used when tracking a non-stationary problem
+#### Incremental implementation of MC update
 
 Initialise $$v_\pi(s)$$ as zero
 
