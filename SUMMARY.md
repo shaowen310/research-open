@@ -26,6 +26,7 @@
     * [Graph Convolution Layers](neural-networks/graph-neural-networks/graph-convolution-layers.md)
   * [Word2Vec](neural-networks/word2vec.md)
 * [Optimiser](optimizers/README.md)
+  * [Stochastic Approximation](optimizers/stochastic-approximation.md)
   * [Convex Programming](optimizers/convex-programming/README.md)
     * [Newton's Method](optimizers/convex-programming/newtons-method/README.md)
       * [Quasi-Newton Methods](optimizers/convex-programming/newtons-method/quasi-newton-methods/README.md)
