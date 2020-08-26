@@ -120,7 +120,7 @@ Note: Summation of probability $$\times$$ reward along all possible state transi
 
 Let $$v_*(s)$$ , $$q_*(s,a)$$ be the state-value, action-value function for optimal policy $$\pi_*$$ respectively
 
-$$\begin{align*}  v_*(s) & = \underset{a \in \mathcal{A}(s)}{\max}q_*(s,a) \\ &=  \underset{a }{\max} \sum_{s',r}p(s',r|s,a)[r+\gamma v_*(s')] \end{align*}$$
+$$\begin{aligned}  v_*(s) & = \underset{a \in \mathcal{A}(s)}{\max}q_*(s,a) \\ &=  \underset{a }{\max} \sum_{s',r}p(s',r|s,a)[r+\gamma v_*(s')] \end{aligned}$$
 
 $$q_*(s,a) = \sum_{s',r} p(s',r|s,a)[r + \gamma \underset{a' \in \mathcal{A}(s')}{\max}q_*(s',a') ]$$
 
