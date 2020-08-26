@@ -16,7 +16,7 @@ $$ V(S_t) := V(S_t) + \alpha (R_{t+1} + \gamma V(S_{t+1}) - V(S_t))$$
 
 Note:
 
-For both methods, initialise $$V(s)$$ **arbitrarily** for all $$s$$ except $$V(terminal)=0$$ .
+For both methods, initialise $$V(s)$$ **arbitrarily** for all $$s$$ except $$V(s_{terminal})=0$$ .
 
 Why initialising $$V(s)$$  arbitrarily does not matter?
 
@@ -51,31 +51,11 @@ If the process is Markov, TD estimation is expected to produce lower error on fu
 
 ### Sarsa: On-policy TD Control
 
-For each step of episode
 
-Action value evaluation
-
-$$ Q(S_t, A_t) := Q(S_t, A_t) + \alpha[R_{t+1} + \gamma Q(S_{t+1}, A_{t+1}) - Q(S_t, A_t)]$$
-
-Policy improvement
-
-$$\varepsilon$$-greedy selection of the action based on Q
 
 ### Q-learning: Off-policy TD Control
 
-For each step of episode
 
-Action value evaluation
-
-$$ Q(S_t, A_t) := Q(S_t, A_t) + \alpha[R_{t+1} + \gamma \max_a Q(S', a) - Q(S_t, A_t)]$$
-
-Policy improvement
-
-$$\varepsilon$$-greedy selection of the action based on Q
-
-Note:
-
-The learned action-value function, Q, directly approximates $$q^*$$, the optimal action-value function, independent of the policy being followed.
 
 ## References
 

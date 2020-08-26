@@ -54,4 +54,5 @@
   * [Generalised Policy Iteration \(GPI\)](reinforcement-learning/generalised-policy-iteration-gpi.md)
   * [Monte Carlo \(MC\) Methods](reinforcement-learning/monte-carlo-methods.md)
   * [Temporal Difference \(TD\) Learning](reinforcement-learning/temporal-difference-learning.md)
+  * [Deep Q-network \(DQN\)](reinforcement-learning/deep-q-network-dqn.md)
 
