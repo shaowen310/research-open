@@ -56,7 +56,7 @@ Counter example: if giving rewards if the agent takes the opponent's piece in a 
 
 ## Returns and Episodes
 
-### Notations & definitions
+### Notations and definitions
 
 | Notation | Definition |
 | :--- | :--- |
@@ -85,7 +85,7 @@ $$G_t = R_{t+1} + \gamma G_{t+1}$$
 
 ## Policies and Value Functions
 
-### Notations & definitions
+### Notations and definitions
 
 | Notation | Definition |
 | :--- | :--- |
@@ -105,7 +105,7 @@ Expected return when starting in $$s$$ , taking the action $$a$$ , and following
 
 Notes
 
-1. Value of any terminal state is zero (since $$R_k = 0$$ for $$k \ge t+1$$ )
+1. Value of any terminal state is zero (since $$R_k = 0$$ for $$k \ge T+1$$ )
 2. Value functions are time-invariant
 
 ### Bellman equation
@@ -118,9 +118,22 @@ Note: Summation of probability $$\times$$ reward along all possible state transi
 
 ## Optimal Policies and Optimal Value Functions
 
-Let $$v_*(s)$$ be the state-value function for optimal policy $$\pi_*$$ 
+Let $$v_*(s)$$ , $$q_*(s,a)$$ be the state-value, action-value function for optimal policy $$\pi_*$$ respectively
 
+$$\begin{align*}  v_*(s) & = \underset{a \in \mathcal{A}(s)}{\max}q_*(s,a) \\ &=  \underset{a }{\max} \sum_{s',r}p(s',r|s,a)[r+\gamma v_*(s')] \end{align*}$$
 
+$$q_*(s,a) = \sum_{s',r} p(s',r|s,a)[r + \gamma \underset{a' \in \mathcal{A}(s')}{\max}q_*(s',a') ]$$
+
+## Problems
+
+1. The model requires well-defined transition probabilities \(aka the environment's dynamics\), which are not always available.
+2. The design of rewards is not so trivial.
+
+### Solutions
+
+#### Problem 1
+
+Monte Carlo method and its descendants.
 
 ## References
 

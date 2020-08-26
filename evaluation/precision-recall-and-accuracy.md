@@ -41,5 +41,4 @@ $$
 ## References
 
 1. [Machine Learning Crash Course: Classification: Precision and Recall](https://developers.google.com/machine-learning/crash-course/classification/precision-and-recall)
-2. Machine Learning Crash 
 

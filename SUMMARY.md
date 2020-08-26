@@ -1,6 +1,9 @@
 # Table of contents
 
-* [Overview](README.md)
+* [Data Science](README.md)
+* [Linear Algebra](linear-algebra.md)
+* [Statistics](statistics/README.md)
+  * [Variance and Covariance](statistics/variance-and-covariance.md)
 * [Evaluation](evaluation/README.md)
   * [Underfitting / Overfitting](evaluation/underfitting-overfitting.md)
   * [Confusion Matrix](evaluation/confusion-matrix.md)
@@ -23,6 +26,7 @@
     * [Graph Convolution Layers](neural-networks/graph-neural-networks/graph-convolution-layers.md)
   * [Word2Vec](neural-networks/word2vec.md)
 * [Optimiser](optimizers/README.md)
+  * [Stochastic Approximation](optimizers/stochastic-approximation.md)
   * [Convex Programming](optimizers/convex-programming/README.md)
     * [Newton's Method](optimizers/convex-programming/newtons-method/README.md)
       * [Quasi-Newton Methods](optimizers/convex-programming/newtons-method/quasi-newton-methods/README.md)
@@ -47,4 +51,8 @@
 * [Fuzzy Logic](fuzzy-logic.md)
 * [Reinforcement Learning](reinforcement-learning/README.md)
   * [Finite Markov Decision Processes \(MDPs\)](reinforcement-learning/markov-decision-processes-mdps.md)
+  * [Generalised Policy Iteration \(GPI\)](reinforcement-learning/generalised-policy-iteration-gpi.md)
+  * [Monte Carlo \(MC\) Methods](reinforcement-learning/monte-carlo-methods.md)
+  * [Temporal Difference \(TD\) Learning](reinforcement-learning/temporal-difference-learning.md)
+  * [Deep Q-network \(DQN\)](reinforcement-learning/deep-q-network-dqn.md)
 
