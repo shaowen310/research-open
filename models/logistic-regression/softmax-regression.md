@@ -1,4 +1,4 @@
-# Softmax Regression
+# Multinomial Logistic Regression
 
 ## Model
 

@@ -12,7 +12,7 @@
   * [Linear Regression](models/linear-regression/README.md)
     * [Polynomial Regression](models/linear-regression/polynomial-regression.md)
   * [Logistic Regression](models/logistic-regression/README.md)
-    * [Softmax Regression](models/logistic-regression/softmax-regression.md)
+    * [Multinomial Logistic Regression](models/logistic-regression/softmax-regression.md)
   * [Support Vector Machines](models/support-vector-machines.md)
   * [Decision Trees](models/decision-trees/README.md)
     * [Random Forests](models/decision-trees/random-forests.md)
