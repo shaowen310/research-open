@@ -2,6 +2,8 @@
 
 ## Model
 
+Consider the problem of classifying a feature vector x $\in \mathbb{R}^m$ to one of k classes.
+
 The output of the model is the estimated probabilities of x being classified as each class.
 
 $$
