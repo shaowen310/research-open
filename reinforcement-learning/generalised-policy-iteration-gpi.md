@@ -6,6 +6,8 @@ Policy-evaluation process evaluates the value function based on the current poli
 
 Policy-improvement process improves the policy by making the policy greedy with respect to the current value function.
 
+One possible policy improvement method
+
 $$ \pi(s) := \arg\underset{a}{\max} \ q(s,a)$$ 
 
 The iteration ends when both value function and policy are optimal.
