@@ -8,7 +8,7 @@ It is used for binary classification. For data with more than 2 classes, [Softma
 
 ## Model
 
-The output of the model is the estimated probability of x being classified as class A.
+The output of the model is the estimated probability.
 
 $$
 h(x) = S(f(x))
