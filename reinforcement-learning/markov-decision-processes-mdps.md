@@ -1,4 +1,4 @@
-# Finite Markov Decision Processes \(MDPs\)
+# Finite Markov Decision Processes (MDPs)
 
 ## Model
 
@@ -8,11 +8,11 @@
 | :--- | :--- |
 | $$t$$ | Timestamp |
 | $$\mathcal{S}$$ | Set of all states |
-| $$S_t$$ | Random variable state at timestamp $$t$$ |
+| $$S_t$$ | Random variable state at timestamp t |
 | $$\mathcal{A}(s)$$ | Set of all actions at state s |
-| $$A_t$$ | Random variable action at timestamp $$t$$ |
+| $$A_t$$ | Random variable action at timestamp t |
 | $$\mathcal{R}$$ | Set of all rewards |
-| $$R_t$$ | Random variable reward at timestamp $$t$$ |
+| $$R_t$$ | Random variable reward at timestamp t |
 
 Note that $$\mathcal{S},\mathcal{A}(s),\mathcal{R}$$ are finite
 
@@ -60,7 +60,7 @@ Counter example: if giving rewards if the agent takes the opponent's piece in a 
 
 | Notation | Definition |
 | :--- | :--- |
-| $$G_t$$ | Return at time stamp $$t$$ |
+| $$G_t$$ | Return at time stamp t |
 | $$T$$ | The time of termination |
 
 Episode: an agent environment interaction subsequence which ends in a terminal state.
@@ -77,7 +77,7 @@ $$G_t = \sum_{k=t+1}^{T}\gamma ^ {k-t-1} R_k$$
 
 where $$0 \le \gamma \le 1 $$
 
-Note: when $$\gamma = 1$$ and $$T$$ is finite, it the simple return
+Note: when $\gamma = 1$ and T is finite, it the simple return
 
 ### Properties
 
@@ -90,22 +90,22 @@ $$G_t = R_{t+1} + \gamma G_{t+1}$$
 | Notation | Definition |
 | :--- | :--- |
 | $$\pi$$ | Policy |
-| $$v_{\pi}(s)$$ | State-value function for policy $$\pi$$ |
-| $$q_{\pi}(s,a)$$ | Action-value function for policy $$\pi$$ |
+| $$v_{\pi}(s)$$ | State-value function for policy $\pi$ |
+| $$q_{\pi}(s,a)$$ | Action-value function for policy $\pi$ |
 
 Policy: a mapping from states to probabilities of selecting each possible action
 
 $$v_{\pi}(s) = \mathbb{E}_{\pi}[G_t|S_t=s]$$ 
 
-Expected return when starting in $$s$$ and following $$\pi$$ thereafter
+Expected return when starting in s and following $\pi$ thereafter
 
 $$q_{\pi}(s,a) = \mathbb{E}_{\pi}[G_t|S_t=s,A_t=a]$$
 
-Expected return when starting in $$s$$ , taking the action $$a$$ , and following $$\pi$$ thereafter
+Expected return when starting in s , taking the action $a$, and following $\pi$ thereafter
 
 Notes
 
-1. Value of any terminal state is zero (since $$R_k = 0$$ for $$k \ge T+1$$ )
+1. Value of any terminal state is zero (since $R_k = 0$ for $k \ge T+1$ )
 2. Value functions are time-invariant
 
 ### Bellman equation
@@ -114,11 +114,11 @@ Notes
 
 $$v_{\pi}(s) = \sum_{a}\pi(a|s) \sum_{s',r}p(s',r|s,a)[r+\gamma v_\pi(s')]$$
 
-Note: Summation of probability $$\times$$ reward along all possible state transition paths
+Note: Summation of probability $\times$ reward along all possible state transition paths
 
 ## Optimal Policies and Optimal Value Functions
 
-Let $$v_*(s)$$ , $$q_*(s,a)$$ be the state-value, action-value function for optimal policy $$\pi_*$$ respectively
+Let $v_*(s)$ , $q_*(s,a)$ be the state-value, action-value function for optimal policy $\pi_*$ respectively
 
 $$\begin{aligned}  v_*(s) & = \underset{a \in \mathcal{A}(s)}{\max}q_*(s,a) \\ &=  \underset{a }{\max} \sum_{s',r}p(s',r|s,a)[r+\gamma v_*(s')] \end{aligned}$$
 
@@ -126,7 +126,7 @@ $$q_*(s,a) = \sum_{s',r} p(s',r|s,a)[r + \gamma \underset{a' \in \mathcal{A}(s')
 
 ## Problems
 
-1. The model requires well-defined transition probabilities \(aka the environment's dynamics\), which are not always available.
+1. The model requires well-defined transition probabilities (aka the environment's dynamics), which are not always available.
 2. The design of rewards is not so trivial.
 
 ### Solutions
