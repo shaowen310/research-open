@@ -14,7 +14,7 @@ $$
 \theta(\mathbf{x})_i =\frac{\exp(x_i)}{\sum_j \exp(x_j)}
 $$
 
-Linear transform f: $mathbb{R}^m \rightarrow \mathbb{R}^k$ is defined as
+Linear transform f: $\mathbb{R}^m \rightarrow \mathbb{R}^k$ is defined as
 
 $$
 f(\mathbf{x})=\mathbf{W}\mathbf{x} + \mathbf{b}
