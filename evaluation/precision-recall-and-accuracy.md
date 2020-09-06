@@ -2,15 +2,27 @@
 
 ## Single label case
 
-### Precision, recall and accuracy
+### Precision, recall, specificity and accuracy
+
+Precision, positive prediction value \(PPV\)
 
 $$
-\text{Precision} = \frac{tp}{tp+fp}
+\text{PPV} = \frac{tp}{tp+fp}
 $$
 
+Recall, sensitivity, hit rate, true positive rate \(TPR\)
+
 $$
-\text{Recall} = \frac{tp}{tp+fn}
+\text{TPR} = \frac{tp}{tp+fn}
 $$
+
+Specificity, selectivity, true negative rate \(TNR\)
+
+$$
+\text{TNR} = \frac{tn}{tn+fp}
+$$
+
+Accuracy
 
 $$
 \text{Accuracy} = \frac{tp+tn}{tp+tn+fp+fn}
