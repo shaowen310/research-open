@@ -1,4 +1,4 @@
-# Finite Markov Decision Processes (MDPs)
+# Finite Markov Decision Processes \(MDPs\)
 
 ## Model
 
@@ -18,17 +18,15 @@ Note that $$\mathcal{S},\mathcal{A}(s),\mathcal{R}$$ are finite
 
 ### Illustration
 
-
-
 ![](../.gitbook/assets/agent-environment-interaction.png)
 
 ### Dynamics of MDP
 
-$$ p(s',r|s,a) = Pr\{S_t = s', R = r | S_{t-1}=s, A_{t-1}=a\}$$
+$$p(s',r|s,a) = Pr\{S_t = s', R = r | S_{t-1}=s, A_{t-1}=a\}$$
 
 #### Property
 
-$$ \sum_{s' \in \mathcal{S}, r \in \mathcal{R}}p(s',r|s,a) = 1$$
+$$\sum_{s' \in \mathcal{S}, r \in \mathcal{R}}p(s',r|s,a) = 1$$
 
 ### State transition
 
@@ -38,11 +36,11 @@ $$p(s'|s,a) = Pr\{S_t=s'|S_{t-1}=s,A_{t-1}=a\} = \sum_{r \in \mathcal{R}}p(s',r|
 
 #### state - action pair
 
-$$ r(s,a) = \mathbb{E}[R_t|S_{t-1}=s,A_{t-1}=a] = \sum_{s' \in \mathcal{S}, r \in \mathcal{R}}r\cdot p(s',r|s,a)$$
+$$r(s,a) = \mathbb{E}[R_t|S_{t-1}=s,A_{t-1}=a] = \sum_{s' \in \mathcal{S}, r \in \mathcal{R}}r\cdot p(s',r|s,a)$$
 
 #### state - action - next-state triple
 
-$$ r(s',s,a) = \sum_{r \in \mathcal{R}} r \frac{p(r,s'|s,a)}{p(s'|s,a)}$$
+$$r(s',s,a) = \sum_{r \in \mathcal{R}} r \frac{p(r,s'|s,a)}{p(s'|s,a)}$$
 
 ## Goals and Rewards
 
@@ -75,7 +73,7 @@ Discounted return
 
 $$G_t = \sum_{k=t+1}^{T}\gamma ^ {k-t-1} R_k$$
 
-where $$0 \le \gamma \le 1 $$
+where $$0 \le \gamma \le 1$$
 
 Note: when $\gamma = 1$ and T is finite, it the simple return
 
@@ -95,7 +93,7 @@ $$G_t = R_{t+1} + \gamma G_{t+1}$$
 
 Policy: a mapping from states to probabilities of selecting each possible action
 
-$$v_{\pi}(s) = \mathbb{E}_{\pi}[G_t|S_t=s]$$ 
+$$v_{\pi}(s) = \mathbb{E}_{\pi}[G_t|S_t=s]$$
 
 Expected return when starting in s and following $\pi$ thereafter
 
@@ -105,7 +103,7 @@ Expected return when starting in s , taking the action $a$, and following $\pi$ 
 
 Notes
 
-1. Value of any terminal state is zero (since $R_k = 0$ for $k \ge T+1$ )
+1. Value of any terminal state is zero \(since $R\_k = 0$ for $k \ge T+1$ \)
 2. Value functions are time-invariant
 
 ### Bellman equation
@@ -118,15 +116,15 @@ Note: Summation of probability $\times$ reward along all possible state transiti
 
 ## Optimal Policies and Optimal Value Functions
 
-Let $v_*(s)$ , $q_*(s,a)$ be the state-value, action-value function for optimal policy $\pi_*$ respectively
+Let $v_\*\(s\)$ , $q\(s,a\)$ be the state-value, action-value function for optimal policy $\pi\__$ respectively
 
-$$\begin{aligned}  v_*(s) & = \underset{a \in \mathcal{A}(s)}{\max}q_*(s,a) \\ &=  \underset{a }{\max} \sum_{s',r}p(s',r|s,a)[r+\gamma v_*(s')] \end{aligned}$$
+$$\begin{aligned} v_*(s) & = \underset{a \in \mathcal{A}(s)}{\max}q_*(s,a) \\ &= \underset{a }{\max} \sum_{s',r}p(s',r|s,a)[r+\gamma v_*(s')] \end{aligned}$$
 
 $$q_*(s,a) = \sum_{s',r} p(s',r|s,a)[r + \gamma \underset{a' \in \mathcal{A}(s')}{\max}q_*(s',a') ]$$
 
 ## Problems
 
-1. The model requires well-defined transition probabilities (aka the environment's dynamics), which are not always available.
+1. The model requires well-defined transition probabilities \(aka the environment's dynamics\), which are not always available.
 2. The design of rewards is not so trivial.
 
 ### Solutions

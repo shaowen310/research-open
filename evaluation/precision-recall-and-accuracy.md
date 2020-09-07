@@ -34,15 +34,11 @@ To fully evaluate the effectiveness of a model, you must examine **both** precis
 
 ![](../.gitbook/assets/precisionvsrecallbase.png)
 
-### Sensitivity and specificity
+### F-measure
 
-$$
-\text{Sensitivity} = \text{Recall}
-$$
+For two Gaussian distributions.
 
-$$
-\text{Specificity} = \frac{tn}{tn+fp}
-$$
+![](../.gitbook/assets/gaussian_precision_recall.png)
 
 ## Multi label case
 
