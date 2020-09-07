@@ -36,6 +36,10 @@ To fully evaluate the effectiveness of a model, you must examine **both** precis
 
 ### F-measure
 
+$$
+F_1 = \frac{2}{\text{recall}^{-1} + \text{precision}^{-1}} = 2\cdot\frac{\text{precision}\cdot\text{recall}}{\text{precision}+\text{recall}}
+$$
+
 For two Gaussian distributions.
 
 ![](../.gitbook/assets/gaussian_precision_recall.png)
