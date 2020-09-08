@@ -44,12 +44,6 @@ For two Gaussian distributions.
 
 ![](../.gitbook/assets/gaussian_precision_recall.png)
 
-### ROC curve
-
-Plot **true positive rate** and **false positive rate** under various classification thresholds. AUC is the area under the ROC curve. The best is AUC-score is 1 while the worst is 0.5.
-
-For ensemble method that uses two or more classifiers, ROC curve will be a piecewise function.
-
 ## Multi label case
 
 $$

@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Data Science](README.md)
+* [Research Impact Factor](research-impact-factor.md)
 * [Linear Algebra](linear-algebra.md)
 * [Statistics](statistics/README.md)
   * [Variance and Covariance](statistics/variance-and-covariance.md)
