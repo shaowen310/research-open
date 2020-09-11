@@ -2,15 +2,27 @@
 
 ## Single label case
 
-### Precision, recall and accuracy
+### Precision, recall, specificity and accuracy
+
+Precision, positive prediction value \(PPV\)
 
 $$
-\text{Precision} = \frac{tp}{tp+fp}
+\text{PPV} = \frac{tp}{tp+fp}
 $$
 
+Recall, sensitivity, hit rate, true positive rate \(TPR\)
+
 $$
-\text{Recall} = \frac{tp}{tp+fn}
+\text{TPR} = \frac{tp}{tp+fn}
 $$
+
+Specificity, selectivity, true negative rate \(TNR\)
+
+$$
+\text{TNR} = \frac{tn}{tn+fp}
+$$
+
+Accuracy
 
 $$
 \text{Accuracy} = \frac{tp+tn}{tp+tn+fp+fn}
@@ -22,15 +34,15 @@ To fully evaluate the effectiveness of a model, you must examine **both** precis
 
 ![](../.gitbook/assets/precisionvsrecallbase.png)
 
-### Sensitivity and specificity
+### F-measure
 
 $$
-\text{Sensitivity} = \text{Recall}
+F_1 = \frac{2}{\text{recall}^{-1} + \text{precision}^{-1}} = 2\cdot\frac{\text{precision}\cdot\text{recall}}{\text{precision}+\text{recall}}
 $$
 
-$$
-\text{Specificity} = \frac{tn}{tn+fp}
-$$
+For two Gaussian distributions.
+
+![](../.gitbook/assets/gaussian_precision_recall.png)
 
 ## Multi label case
 

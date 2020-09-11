@@ -8,7 +8,7 @@ It is used for binary classification. For data with more than 2 classes, [Softma
 
 ## Model
 
-The output of the model is the estimated probability.
+The output of the model is the estimated probability of x being classified as class A.
 
 $$
 h(x) = S(f(x))
@@ -42,6 +42,8 @@ $$
   L(h(x),y) = -log(1-h(x)) & \text{if }y=0
 \end{cases}
 $$
+
+Note: it behaves the same as choosing the negative log probability based on ground truth.
 
 For empirical risk minimisation and regularisation, see [Linear Regression](../linear-regression/) for details.
 
