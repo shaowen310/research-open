@@ -71,3 +71,35 @@ Row-wise view
 $$
 DA = \begin{bmatrix}\lambda_1\mathbf{r}_1\\\lambda_2\mathbf{r}_2\\\vdots\\\lambda_n\mathbf{r}_n\end{bmatrix}
 $$
+
+## Eigenvalue and eigenvector
+
+$$
+A\bm{v}=\lambda\bm{v}
+$$
+
+Then λ is an eigenvalue of A, and $\bm{v}$ is an eigenvector of A. λ is the corresponding eigenvalue of the eigenvector $\bm{v}$.
+
+## Diagonalisation
+
+$$
+P^\intercal D P = A
+$$
+
+Then
+
+$$
+P^\intercal D = A P^\intercal
+$$
+
+Consider the eigenvalues and eigenvectors of A
+
+$$
+P^\intercal=\begin{bmatrix}\bm{v}_1 & \bm{v}_2 & \dots\end{bmatrix}
+$$
+
+Then
+
+$$
+\begin{bmatrix}\lambda_1\bm{v}_1 & \lambda_2\bm{v}_2 &\dots\end{bmatrix} = \begin{bmatrix}A\bm{v}_1 & A\bm{v}_2 & \dots\end{bmatrix}
+$$
