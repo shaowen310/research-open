@@ -18,6 +18,8 @@ $$
 
 ## Matrix product
 
+### Product of ordinary matrices
+
 Let matrix 
 
 $$
@@ -46,4 +48,26 @@ Row-wise view
 
 $$
 A^\intercal A = \begin{bmatrix} \mathbf{c}_1^\intercal \\ \mathbf{c}_2^\intercal \\ \vdots \\ \mathbf{c}_n^\intercal \end{bmatrix} \cdot A = \begin{bmatrix} \mathbf{c}_1^\intercal A \\ \mathbf{c}_2^\intercal A \\ \vdots \\ \mathbf{c}_n^\intercal A\end{bmatrix}
+$$
+
+### Multiplying a diagonal matrix
+
+Let a diagonal matrix
+
+$$
+D = \begin{bmatrix}\lambda_1 & & & \\& \lambda_2 & & \\& & \ddots & \\ & & & \lambda_n \end{bmatrix}
+$$
+
+Then
+
+Column-wise view
+
+$$
+AD = \begin{bmatrix}\lambda_1 \mathbf{c}_1 & \lambda_2 \mathbf{c}_2 & \dots & \lambda_n \mathbf{c}_n\end{bmatrix}
+$$
+
+Row-wise view
+
+$$
+DA = \begin{bmatrix}\lambda_1\mathbf{r}_1\\\lambda_2\mathbf{r}_2\\\vdots\\\lambda_n\mathbf{r}_n\end{bmatrix}
 $$
