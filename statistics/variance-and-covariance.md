@@ -44,3 +44,9 @@ $$
 
 where $$\mu_\mathbf{X}$$ is the vector of the sample means for each feature
 
+## Correlation
+
+$$
+\mathrm{corr}(\mathbf{X},\mathbf{Y})=\frac{\mathrm{cov}(\mathbf{X},\mathbf{Y})}{\sigma_x \sigma_y}
+$$
+
