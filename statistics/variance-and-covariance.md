@@ -48,6 +48,8 @@ $$
 
 where $$\mu_\mathbf{X}$$ is the vector of the sample means for each feature
 
+Note that $$E_0$$ here represents an operation to expand the tensor along axis 0.
+
 ## Correlation
 
 $$
