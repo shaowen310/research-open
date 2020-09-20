@@ -39,16 +39,10 @@ $$c_{i,j} = \mathrm{cov}(X_i, X_j)$$
 #### Property
 
 $$
-\begin{aligned}
-\mathbf{C}_\mathbf{X} &= \frac{1}{N}\sum_i^N (x_i-\mu) (x_i - \mu) ^\intercal \\
-&=\frac{1}{N}(\mathbf{X}-E_0(\mu))^T(\mathbf{X}-E_0(\mu))\\
-&= \frac{1}{N}\mathbf{X}^\intercal \mathbf{X} -\mu_\mathbf{X} \mu_\mathbf{X}^\intercal
-\end{aligned}
+\mathbf{C}_\mathbf{X} = \frac{1}{N}\mathbf{X} \mathbf{X}^\intercal -\mu_\mathbf{X} \mu_\mathbf{X}^\intercal
 $$
 
 where $$\mu_\mathbf{X}$$ is the vector of the sample means for each feature
-
-Note that $$E_0$$ here represents an operation to expand the tensor along axis 0.
 
 ## Correlation
 

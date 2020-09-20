@@ -1,26 +1,34 @@
 # Linear Algebra
 
-## Inner product
+## Vector product
+
+### Element-wise product
+
+$$
+\boldsymbol{u}*\boldsymbol{v}=\begin{bmatrix} u_1v_1 & u_2v_2 & \dots & u_n v_n \end{bmatrix}
+$$
+
+### Inner product
 
 $$
 \mathbf{u} \cdot \mathbf{v} = \mathbf{u}^\intercal \mathbf{v}
 $$
 
-## Outer product
+### Outer product
 
-Let vector $$\mathbf{u}=(u_1, u_2, ..., u_m)$$, $$\mathbf{v}=(v_1, v_2,  ..., v_n)$$
+Let vector $$\mathbf{u}=(u_1, u_2, ..., u_m)$$, $$\mathbf{v}=(v_1, v_2, ..., v_n)$$
 
 Then
 
 $$
-\mathbf{u} \otimes \mathbf{v} = \mathbf{u} \mathbf{v}^\intercal= \begin{bmatrix}      u_1 v_1 & u_1 v_2& \dots \\     \vdots & \ddots & \\     u_m v_1 &        & u_m v_n      \end{bmatrix}
+\boldsymbol{u} \otimes \boldsymbol{v} = \boldsymbol{u} \boldsymbol{v}^\intercal= E_0(\boldsymbol{u})*E_1(\boldsymbol{v}) = \begin{bmatrix}      u_1 v_1 & u_1 v_2& \dots \\     \vdots & \ddots & \\     u_m v_1 &        & u_m v_n      \end{bmatrix}
 $$
 
 ## Matrix product
 
 ### Product of ordinary matrices
 
-Let matrix 
+Let matrix
 
 $$
 A = \begin{bmatrix} \mathbf{r}_1^\intercal \\ \mathbf{r}_2^\intercal \\ \vdots \\ \mathbf{r}_m^\intercal  \end{bmatrix} = \begin{bmatrix} \mathbf{c}_1 & \mathbf{c}_2 & \dots & \mathbf{c}_n \end{bmatrix}
@@ -103,3 +111,4 @@ Then
 $$
 \begin{bmatrix}\lambda_1\bm{v}_1 & \lambda_2\bm{v}_2 &\dots\end{bmatrix} = \begin{bmatrix}A\bm{v}_1 & A\bm{v}_2 & \dots\end{bmatrix}
 $$
+
