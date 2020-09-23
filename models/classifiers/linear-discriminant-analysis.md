@@ -4,9 +4,9 @@
 
 | Symbol | Description |
 | :--- | :--- |
-| $$E_i(x)$$ | Expand tensor x along axis i |
-| $$C$$ | Cluster set |
-| $$n_i$$ | The number of elements in cluster i |
+| $E_i(x)$ | Expand tensor x along axis i |
+| $C$ | Cluster set |
+| $n_i$ | The number of elements in cluster i |
 
 ## LDA
 
@@ -40,7 +40,7 @@ S_w &= \sum_{i \in C} \sum_{x \in X_i}(x-\mu_i)(x-\mu_i)^\intercal \\
 \end{aligned}
 $$
 
-Suppose the corresponding row of the ith row of $M$ is $x\_i$ and $y\_i$ is $x\_i$'s label, then the ith row of $M$ is $\mu\_{y\_i}$.
+Suppose the corresponding row of the ith row of $M$ is $x_i$ and $y_i$ is $x_i$'s label, then the ith row of $M$ is $\mu_{y_i}$.
 
 ### Optimisation problem
 
@@ -53,7 +53,7 @@ $$
 
 #### Solution
 
-$w$ is the eigenvector of the matrix $S\_w^-1 S\_b$
+$w$ is the eigenvector of the matrix $S_w^{-1} S_b$
 
 m - 1 eigenvectors associated with highest eigenvalues are used to discriminate between m classes.
 
@@ -67,7 +67,7 @@ $$
 \theta = w \cdot \frac{1}{2}(\mu_1+\mu_2)
 $$
 
-Predict 1 if $wx &lt; \theta$
+Predict 1 if $wx < \theta$
 
 #### Multiclass case
 
@@ -94,7 +94,7 @@ C_X &= (X-E_0(\mu))^\intercal(X-E_0(\mu)) \\
 \end{aligned}
 $$
 
-The eigenvectors for $S\_w^-1S\_b$ and $C\_X^-1 S\_b$ are the same.
+The eigenvectors for $S_w^{-1}S_b$ and $C_X^{-1} S_b$ are the same.
 
 ## References
 
