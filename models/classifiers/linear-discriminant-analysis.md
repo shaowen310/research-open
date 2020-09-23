@@ -14,7 +14,7 @@
 
 #### Two class case
 
-\(Fisher, 1936\)
+(Fisher, 1936)
 
 $$
 S_b = (\mu_1-\mu_2)(\mu_1-\mu_2)^\intercal
@@ -22,7 +22,7 @@ $$
 
 #### Multiclass clase
 
-\(Johnson & Wichern, 1988\)
+(Johnson & Wichern, 1988)
 
 $$
 S_b=\sum_{i\in C}n_i(\mu_i - \mu)(\mu_i-\mu)^\intercal
