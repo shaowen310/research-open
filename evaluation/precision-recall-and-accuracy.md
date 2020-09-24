@@ -1,6 +1,6 @@
 # Precision, recall and Accuracy
 
-## Single label case
+## Two label case
 
 ### Precision, recall, specificity and accuracy
 
