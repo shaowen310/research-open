@@ -27,6 +27,7 @@
   * [Bayesian Statistics](models/bayesian-statistics/README.md)
     * [Maximum A Posteriori \(MAP\)](models/bayesian-statistics/maximum-a-posteriori-map.md)
 * [Neural Networks](neural-networks/README.md)
+  * [Attention Mechanism in NN](neural-networks/attention-mechanism-in-nn.md)
   * [Graph Neural Networks](neural-networks/graph-neural-networks/README.md)
     * [Graph Convolution Layers](neural-networks/graph-neural-networks/graph-convolution-layers.md)
   * [Word2Vec](neural-networks/word2vec.md)
