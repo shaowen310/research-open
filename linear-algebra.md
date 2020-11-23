@@ -43,8 +43,20 @@ A^\intercal A = \begin{bmatrix} \mathbf{c}_1^\intercal \\ \mathbf{c}_2^\intercal
 $$
 
 $$
-A A^\intercal  = \begin{bmatrix} \mathbf{r}_1^\intercal \\ \mathbf{r}_2^\intercal \\ \vdots \\ \mathbf{r}_m^\intercal \end{bmatrix} \cdot \begin{bmatrix} \mathbf{r}_1 & \mathbf{r}_2 & \dots & \mathbf{r}_n \end{bmatrix} = \begin{bmatrix} \mathbf{r}_1^\intercal \mathbf{r}_1 & \mathbf{r}_1^\intercal \mathbf{r}_2& \dots \\ \vdots & \ddots & \\ \mathbf{r}_m^\intercal \mathbf{r}_1 & & \mathbf{r}_m^\intercal \mathbf{r}_m \end{bmatrix}
+A^\intercal A  = \sum_{i=1}^{m}{\mathbf{r}_i \mathbf{r}_i^\intercal}
 $$
+
+The result is an n x n matrix
+
+$$
+A A^\intercal  = \begin{bmatrix} \mathbf{r}_1^\intercal \\ \mathbf{r}_2^\intercal \\ \vdots \\ \mathbf{r}_m^\intercal \end{bmatrix} \cdot \begin{bmatrix} \mathbf{r}_1 & \mathbf{r}_2 & \dots & \mathbf{r}_m \end{bmatrix} = \begin{bmatrix} \mathbf{r}_1^\intercal \mathbf{r}_1 & \mathbf{r}_1^\intercal \mathbf{r}_2& \dots \\ \vdots & \ddots & \\ \mathbf{r}_m^\intercal \mathbf{r}_1 & & \mathbf{r}_m^\intercal \mathbf{r}_m \end{bmatrix}
+$$
+
+$$
+A A^\intercal = \sum_{i=1}^{n}{\mathbf{c}_i \mathbf{c}_i^\intercal}
+$$
+
+The result is an m x m matrix
 
 Column-wise view
 
