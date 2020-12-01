@@ -120,7 +120,7 @@ Let $v_\*\(s\)$ , $q\(s,a\)$ be the state-value, action-value function for optim
 
 $$\begin{aligned} v_*(s) & = \underset{a \in \mathcal{A}(s)}{\max}q_*(s,a) \\ &= \underset{a }{\max} \sum_{s',r}p(s',r|s,a)[r+\gamma v_*(s')] \end{aligned}$$
 
-$$q_*(s,a) = \sum_{s',r} p(s',r|s,a)[r + \gamma \underset{a' \in \mathcal{A}(s')}{\max}q_*(s',a') ]$$
+$$q_*(s,a) = \underset{s',r}{\sum} p(s',r|s,a)[r + \gamma \underset{a' \in \mathcal{A}(s')}{\max}q_*(s',a') ]$$
 
 ## Problems
 
