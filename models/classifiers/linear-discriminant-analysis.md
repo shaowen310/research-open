@@ -4,9 +4,9 @@
 
 | Symbol | Description |
 | :--- | :--- |
-| $E_i(x)$ | Expand tensor x along axis i |
+| $E\_i\(x\)$ | Expand tensor x along axis i |
 | $C$ | Cluster set |
-| $n_i$ | The number of elements in cluster i |
+| $n\_i$ | The number of elements in cluster i |
 
 ## LDA
 
@@ -14,7 +14,7 @@
 
 #### Two class case
 
-(Fisher, 1936)
+\(Fisher, 1936\)
 
 $$
 S_b = (\mu_1-\mu_2)(\mu_1-\mu_2)^\intercal
@@ -22,7 +22,7 @@ $$
 
 #### Multiclass clase
 
-(Johnson & Wichern, 1988)
+\(Johnson & Wichern, 1988\)
 
 $$
 S_b=\sum_{i\in C}n_i(\mu_i - \mu)(\mu_i-\mu)^\intercal
@@ -40,7 +40,7 @@ S_w &= \sum_{i \in C} \sum_{x \in X_i}(x-\mu_i)(x-\mu_i)^\intercal \\
 \end{aligned}
 $$
 
-Suppose the corresponding row of the ith row of $M$ is $x_i$ and $y_i$ is $x_i$'s label, then the ith row of $M$ is $\mu_{y_i}$.
+Suppose the corresponding row of the ith row of $M$ is $x_i$ and $y\_i$ is $x\_i$'s label, then the ith row of $M$ is $\mu_{y\_i}$.
 
 ### Optimisation problem
 
@@ -53,7 +53,7 @@ $$
 
 #### Solution
 
-$w$ is the eigenvector of the matrix $S_w^{-1} S_b$
+$w$ is the eigenvector of the matrix $S\_w^{-1} S\_b$
 
 m - 1 eigenvectors associated with highest eigenvalues are used to discriminate between m classes.
 
@@ -67,7 +67,7 @@ $$
 \theta = w \cdot \frac{1}{2}(\mu_1+\mu_2)
 $$
 
-Predict 1 if $wx < \theta$
+Predict 1 if $wx &lt; \theta$
 
 #### Multiclass case
 
@@ -94,12 +94,11 @@ C_X &= (X-E_0(\mu))^\intercal(X-E_0(\mu)) \\
 \end{aligned}
 $$
 
-The eigenvectors for $S_w^{-1}S_b$ and $C_X^{-1} S_b$ are the same.
+The eigenvectors for $S\_w^{-1}S\_b$ and $C\_X^{-1} S\_b$ are the same.
 
 ## References
 
 R. Fisher \(1936\). ‘The use of multiple measurements in taxonomic problems’. Annals of Eugenics \(7\):179–188.
 
-R. A. Johnson & D. W. Wichern \(1988\). Applied Multivariate Statistical Analysis. Prentice Hall.  
-
+R. A. Johnson & D. W. Wichern \(1988\). Applied Multivariate Statistical Analysis. Prentice Hall.
 
