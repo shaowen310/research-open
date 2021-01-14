@@ -65,5 +65,6 @@
   * [Deep Q-network \(DQN\)](reinforcement-learning/deep-q-network-dqn.md)
 * [Knowledge Graph \(KG\)](knowledge-graph-kg/README.md)
   * [Notations and Definitions for KG](knowledge-graph-kg/notations-and-definitions-for-kg.md)
+  * [SPARQL Tutorial](knowledge-graph-kg/sparql-tutorial.md)
   * [Summary of Public KGs](knowledge-graph-kg/summary-of-public-kgs.md)
 

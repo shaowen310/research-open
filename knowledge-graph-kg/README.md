@@ -32,7 +32,7 @@ Structured data representation
 
 ### Application point of view
 
-1. Initially for knowledge query.
+1. Initially for knowledge query. Knowledge enhanced search, such as searching products by description.
 2. Identification of the missing links between entities, aka Knowledge Graph Completion \(KGC\) problem.
 
 ## How to build KG?
@@ -54,6 +54,10 @@ Detailed process in a separate page.
 SPARQL
 
 ## What are popular public KGs?
+
+### General
+
+### Domain-specific
 
 ## References
 
