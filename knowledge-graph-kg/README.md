@@ -29,6 +29,7 @@ Structured data representation
 #### Benefits
 
 1. Categorized knowledge is easier for human to understand.
+2. Derivation of complex concepts by combining primitive concepts.
 
 ### Application point of view
 
