@@ -1,4 +1,4 @@
-# Stochastic Gradient Descent
+# Stochastic Gradient Descent \(SGD\)
 
 ## The optimization problem
 
