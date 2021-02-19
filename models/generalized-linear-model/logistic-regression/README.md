@@ -45,7 +45,7 @@ $$
 
 Note: it behaves the same as choosing the negative log probability based on ground truth.
 
-For empirical risk minimisation and regularisation, see [Linear Regression](../../regressors/linear-regression/) for details.
+For empirical risk minimisation and regularisation, see [Linear Regression](../linear-regression/) for details.
 
 #### Summary
 

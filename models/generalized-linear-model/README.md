@@ -1,2 +1,2 @@
-# Generalized Linear Model
+# Generalized Linear Models
 
