@@ -71,7 +71,7 @@ Predict 1 if $wx &lt; \theta$
 
 #### Multiclass case
 
-Centres
+Centers
 
 $$
 c_i = \frac{1}{n_i} \sum_{x \in X_i} W^\intercal x
