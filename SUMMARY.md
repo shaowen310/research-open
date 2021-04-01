@@ -69,4 +69,10 @@
   * [Notations and Definitions for KG](knowledge-graph-kg/notations-and-definitions-for-kg.md)
   * [SPARQL Tutorial](knowledge-graph-kg/sparql-tutorial.md)
   * [Summary of Public KGs](knowledge-graph-kg/summary-of-public-kgs.md)
+* [Latex](latex/README.md)
+  * [Algorithm](latex/algorithm.md)
+  * [Bibliography Management](latex/bibliography-management.md)
+  * [Equations](latex/equations.md)
+  * [Fonts](latex/fonts.md)
+* [Microsoft Office Equations](microsoft-office-equations.md)
 
