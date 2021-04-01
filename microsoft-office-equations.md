@@ -4,7 +4,7 @@
 
 `alt` + `+` 
 
-### Math Symbols
+## Math Symbols
 
 | Symbol | Code |
 | :--- | :--- |
@@ -12,4 +12,8 @@
 | $$\mathcal{L}$$ | `\scriptL` |
 | $$\times$$,$$\cdot$$ | `\times` `\cdot` |
 | $$\arg \underset{\phi,T}{\max}$$ | `"arg"` then find "max" in "Limit and Log" tab |
+
+## References
+
+
 
