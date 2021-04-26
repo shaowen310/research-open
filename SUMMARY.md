@@ -71,6 +71,7 @@
   * [SPARQL Tutorial](knowledge-graph-kg/sparql-tutorial.md)
   * [Summary of Public KGs](knowledge-graph-kg/summary-of-public-kgs.md)
 * [Deep Learning Tools](deep-learning-tools/README.md)
+  * [PyTorch Data](deep-learning-tools/pytorch-data.md)
   * [TensorBoard](deep-learning-tools/tensorboard.md)
 * [Latex](latex/README.md)
   * [Algorithm](latex/algorithm.md)
