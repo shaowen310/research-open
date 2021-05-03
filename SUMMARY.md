@@ -71,6 +71,7 @@
   * [SPARQL Tutorial](knowledge-graph-kg/sparql-tutorial.md)
   * [Summary of Public KGs](knowledge-graph-kg/summary-of-public-kgs.md)
 * [Deep Learning Tools](deep-learning-tools/README.md)
+  * [Hugging Face](deep-learning-tools/hugging-face.md)
   * [PyTorch Data](deep-learning-tools/pytorch-data/README.md)
     * [Multi-GPU](deep-learning-tools/pytorch-data/multi-gpu.md)
   * [TensorBoard](deep-learning-tools/tensorboard.md)
