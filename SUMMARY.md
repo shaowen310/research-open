@@ -64,6 +64,7 @@
   * [Temporal Difference \(TD\) Learning](reinforcement-learning/temporal-difference-learning.md)
   * [Deep Q-network \(DQN\)](reinforcement-learning/deep-q-network-dqn.md)
 * [NLP](nlp/README.md)
+  * [Pretrained](nlp/pretrained.md)
   * [BERT](nlp/bert.md)
   * [Word2Vec](nlp/word2vec.md)
 * [Knowledge Graph \(KG\)](knowledge-graph-kg/README.md)
