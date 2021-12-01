@@ -2,21 +2,21 @@
 
 ## Idea
 
-For each input that LSTM \(Encoder\) reads, the attention-mechanism takes into account several other inputs at the same time and decides which ones are important by attributing different weights to those inputs.
+For each input that LSTM (Encoder) reads, the attention-mechanism takes into account several other inputs at the same time and decides which ones are important by attributing different weights to those inputs.
 
 ## Transformer
 
 ### Overview
 
-![Transformer Architecture](../../.gitbook/assets/image%20%281%29.png)
+![Transformer Architecture](<../../.gitbook/assets/image (3).png>)
 
 The encoder is on the left and the decoder is on the right.
 
 ### Scaled Dot-Product Attention
 
-![Scaled Dot-Product Attention](../../.gitbook/assets/image%20%283%29.png)
+![Scaled Dot-Product Attention](<../../.gitbook/assets/image (1).png>)
 
-![Multi-Head Attention](../../.gitbook/assets/image.png)
+![Multi-Head Attention](<../../.gitbook/assets/image (2).png>)
 
 $$
 Attention(Q,K,V) = softmax(\frac{QK^\intercal}{\sqrt{d_k}})V
@@ -35,4 +35,3 @@ For the attention module that is taking the encoder and the decoder sequences, V
 ## References
 
 1. [Medium: Transformer](https://medium.com/inside-machine-learning/what-is-a-transformer-d07dd1fbec04)
-
