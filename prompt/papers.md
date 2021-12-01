@@ -28,12 +28,12 @@ Fine-tuning: sampling similar demonstrations
 #### Create conda environment
 
 ```
-conda create --name lmbff python=3.8
-
-conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.2 -c pytorch
-conda install -c conda-forge transformers=3.5.1
-conda install -c conda-forge sentence-transformers
-conda install pandas
+conda create --name lmbff python=3.8 -y
+conda activate lmbff
+conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.2 -c pytorch -y
+conda install -c conda-forge transformers=3.5.1 -y
+conda install -c conda-forge sentence-transformers -y
+conda install pandas -y
 ```
 
 ####
