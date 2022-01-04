@@ -85,3 +85,4 @@
   * [Equations](latex/equations.md)
   * [Fonts](latex/fonts.md)
 * [Microsoft Office Equations](microsoft-office-equations.md)
+* [Open Information Extraction](open-information-extraction.md)
