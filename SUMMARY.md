@@ -70,6 +70,7 @@
   * [Word2Vec](nlp/word2vec.md)
 * [Prompt](prompt/README.md)
   * [Papers](prompt/papers.md)
+* [Open Information Extraction](open-information-extraction.md)
 * [Knowledge Graph (KG)](knowledge-graph-kg/README.md)
   * [Notations and Definitions for KG](knowledge-graph-kg/notations-and-definitions-for-kg.md)
   * [SPARQL Tutorial](knowledge-graph-kg/sparql-tutorial.md)
@@ -85,4 +86,3 @@
   * [Equations](latex/equations.md)
   * [Fonts](latex/fonts.md)
 * [Microsoft Office Equations](microsoft-office-equations.md)
-* [Open Information Extraction](open-information-extraction.md)
