@@ -123,4 +123,3 @@ Then
 $$
 \begin{bmatrix}\lambda_1\bm{v}_1 & \lambda_2\bm{v}_2 &\dots\end{bmatrix} = \begin{bmatrix}A\bm{v}_1 & A\bm{v}_2 & \dots\end{bmatrix}
 $$
-

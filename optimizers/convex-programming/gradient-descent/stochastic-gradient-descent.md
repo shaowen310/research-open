@@ -1,4 +1,4 @@
-# Stochastic Gradient Descent \(SGD\)
+# Stochastic Gradient Descent (SGD)
 
 ## The optimization problem
 
@@ -44,7 +44,7 @@ SGD with momentum, momentum is moving average of previous gradients
 
 [Tutorial](https://towardsdatascience.com/stochastic-gradient-descent-with-momentum-a84097641a5d) Paper
 
-Adaptive gradient \(Adagrad\)
+Adaptive gradient (Adagrad)
 
 
 
@@ -54,5 +54,4 @@ Tutorial Paper
 
 ## References
 
-1. Zhang, T. \(2004\). Solving large scale linear prediction problems using stochastic gradient descent algorithms. Twenty-first international conference on Machine learning - ICML '04, doi: [10.1145/1015330.1015332](https://doi.org/10.1145/1015330.1015332).
-
+1. Zhang, T. (2004). Solving large scale linear prediction problems using stochastic gradient descent algorithms. Twenty-first international conference on Machine learning - ICML '04, doi: [10.1145/1015330.1015332](https://doi.org/10.1145/1015330.1015332).

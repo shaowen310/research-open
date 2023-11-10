@@ -1,6 +1,6 @@
 # Limited-memory BFGS
 
-## Broyden–Fletcher–Goldfarb–Shanno algorithm \(BFGS\)
+## Broyden–Fletcher–Goldfarb–Shanno algorithm (BFGS)
 
 Problem: minimizing an unconstrained function $$f$$of $$n$$variables
 
@@ -75,4 +75,3 @@ $$H_0$$is diagonal.
 ## References
 
 1. J. Nocedal, "Updating Quasi-Newton Matrices with Limited Storage," Mathematics of Computation, vol. 35, no. 151, pp. 773-782, 1980, doi: 10.2307/2006193.
-

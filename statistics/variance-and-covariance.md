@@ -6,7 +6,7 @@ Let $$X$$ be a random variable, $$\mu = \mathrm{E}[X]$$
 
 Then
 
-$$ \mathrm{var}(X) = \mathrm{E}[(X-\mu)^2] = \mathrm{E}[X^2-2X\mu+\mu^2] =\mathrm{E}[X^2]-\mu^2$$
+$$\mathrm{var}(X) = \mathrm{E}[(X-\mu)^2] = \mathrm{E}[X^2-2X\mu+\mu^2] =\mathrm{E}[X^2]-\mu^2$$
 
 ## Covariance
 
@@ -14,7 +14,7 @@ Let $$X$$ and $$Y$$ be two jointly distributed random variables, $$\bar{X} = \ma
 
 Then
 
-$$ \mathrm{cov(X, Y)} = \mathrm{E}[(X-\bar{X})(Y-\bar{Y})]$$
+$$\mathrm{cov(X, Y)} = \mathrm{E}[(X-\bar{X})(Y-\bar{Y})]$$
 
 Note
 
@@ -26,7 +26,7 @@ Let $$\mathbf{x}_i$$ be a vector of sample values for feature $$i$$ , and the ma
 
 $$\mathbf{X} = [\mathbf{x}_1 \mathbf{x}_2 \dots \mathbf{x}_n]^\intercal$$
 
-Let $$X_i$$ be the random variable for the outcome of feature $$i$$ 
+Let $$X_i$$ be the random variable for the outcome of feature $$i$$&#x20;
 
 Let $$\mathbf{C}_{\mathbf{X}}$$ be the covariance matrix
 
@@ -55,4 +55,3 @@ Note that $$E_0$$ here represents an operation to expand the tensor along axis 0
 $$
 \mathrm{corr}(\mathbf{X},\mathbf{Y})=\frac{\mathrm{cov}(\mathbf{X},\mathbf{Y})}{\sigma_x \sigma_y}
 $$
-
