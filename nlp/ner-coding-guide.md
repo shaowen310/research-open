@@ -28,7 +28,7 @@ It uses empty line to separate sentences.
 
 ## Preprocess
 
-### What is the input for BERT?
+### BERT input
 
 3 sequences which are
 
@@ -36,13 +36,13 @@ It uses empty line to separate sentences.
 * attention\_mask: indicates which portion contains valid input, "1" for true, "0" for false
 * segment\_id: indicates the segment a token belongs to when the input contains a pair of sentences, "0" for the first sentence, "1" for the second sentence. For NER, use "0" for all tokens.
 
-### What is the output?
+### BERT output
 
-* labels: id for labels. Note that if a word is split into several subwords, only the first subword is annotated with the source label, all others are annotated using null label.
+* labels: id for labels. Note that only the first subword is annotated with the source label if a word is split into several subwords. All others are annotated using the null label.
 
 ### How to locate the subword in the source sentence?
 
-Use 'offset\_mapping'. Each pair indicates the start and end position of a subword relative to the original word.
+Use 'offset\_mapping'. Each pair indicates a subword's start and end position relative to the original word.
 
 ## Reference
 
