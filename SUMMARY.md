@@ -81,10 +81,18 @@
     * [Prompt](nlp/prompt/README.md)
       * [Papers](nlp/prompt/papers.md)
     * [Open Information Extraction](nlp/open-information-extraction.md)
-* [Latex](latex/README.md)
-  * [Algorithm](latex/algorithm.md)
-  * [Bibliography Management](latex/bibliography-management.md)
-  * [Equations](latex/equations.md)
-  * [Fonts](latex/fonts.md)
-* [Microsoft Office Equations](microsoft-office-equations.md)
 * [Research Impact Factor](research-impact-factor.md)
+
+## Math
+
+## LaTeX
+
+* [Algorithm](latex/algorithm.md)
+* [Bibliography](latex/bibliography-management.md)
+* [Equations](latex/equations.md)
+* [Fonts](latex/fonts.md)
+* [Microsoft Office Equations](latex/microsoft-office-equations.md)
+
+## LLM
+
+* [Surveys](llm/surveys.md)
