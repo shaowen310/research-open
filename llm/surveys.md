@@ -4,7 +4,7 @@
 
 ### Popular LLMs
 
-<img src="../.gitbook/assets/image.png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (4).png" alt="" data-size="original">
 
 ### Issue
 
@@ -16,11 +16,11 @@ Generating statements that are factually incorrect. Especially in high-stakes sc
 
 ### KG-enhanced LLMs
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (5).png>)
 
 ### LLM-augmented for KG Tasks
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (6).png>)
 
 #### KG embedding
 
@@ -56,7 +56,7 @@ Grapher, PiVE (prompting)
 
 ### Synergized LLMs + KGs
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (7).png>)
 
 
 

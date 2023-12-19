@@ -91,7 +91,7 @@
 * [Bibliography](latex/bibliography-management.md)
 * [Equations](latex/equations.md)
 * [Fonts](latex/fonts.md)
-* [Microsoft Office Equations](latex/microsoft-office-equations.md)
+* [Microsoft Office Equations](microsoft-office-equations.md)
 
 ## LLM
 

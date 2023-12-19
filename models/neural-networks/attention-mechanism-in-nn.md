@@ -8,15 +8,15 @@ For each input that LSTM (Encoder) reads, the attention-mechanism takes into acc
 
 ### Overview
 
-![Transformer Architecture](<../../.gitbook/assets/image (3) (1).png>)
+![Transformer Architecture](<../../.gitbook/assets/image (3).png>)
 
 The encoder is on the left and the decoder is on the right.
 
 ### Scaled Dot-Product Attention
 
-![Scaled Dot-Product Attention](<../../.gitbook/assets/image (1) (1).png>)
+![Scaled Dot-Product Attention](<../../.gitbook/assets/image (1).png>)
 
-![Multi-Head Attention](<../../.gitbook/assets/image (2) (1).png>)
+![Multi-Head Attention](<../../.gitbook/assets/image (2).png>)
 
 $$
 Attention(Q,K,V) = softmax(\frac{QK^\intercal}{\sqrt{d_k}})V
