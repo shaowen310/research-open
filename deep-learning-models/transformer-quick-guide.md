@@ -6,17 +6,25 @@
 
 The features of the input sequence are extracted using linear layers.
 
+The input shapes are&#x20;
+
+`[batch_size, from_seq_length, features]`,
+
+`[batch_size, to_seq_length, features]`.
+
+`features` is embedding dimension
+
+`features = num_attention_heads * size_per_head`&#x20;
+
+The extracted features are
+
 `Q` 's shape is `[batch_size, num_attention_heads, from_seq_length, size_per_head]`
 
 `K` 's shape is `[batch_size, num_attention_heads, to_seq_length, size_per_head]`
 
 `V` 's shape is `[batch_size, num_attention_heads, to_seq_length, size_per_head]`
 
-The input's shapes are&#x20;
-
-`[batch_size, from_seq_length, features]`,
-
-`[batch_size, to_seq_length, features]`.
+We may use one linear layer with an output feature size of `3*num_attention_heads*size_per_head` to replace the three separate linear layers indicated in the diagram.
 
 The output's shape is `[batch_size, from_seq_length, features]`.
 
