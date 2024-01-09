@@ -87,6 +87,12 @@
       * [Monte Carlo](math/math-and-statistics/optimizers/statistical-methods/monte-carlo.md)
   * [Fuzzy Logic](math/math-and-statistics/fuzzy-logic.md)
 
+***
+
+* [Data](data/README.md)
+  * [Spatial Temporal](data/spatial-temporal/README.md)
+    * [NYC Taxi/Bike Demand](data/spatial-temporal/nyc-taxi-bike-demand.md)
+
 ## LaTeX
 
 * [Algorithm](latex/algorithm.md)
