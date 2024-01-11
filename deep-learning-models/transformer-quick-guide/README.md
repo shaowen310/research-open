@@ -2,7 +2,7 @@
 
 ## Multi-head attention
 
-<figure><img src="../.gitbook/assets/multihead_attention (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/multihead_attention (1).png" alt=""><figcaption></figcaption></figure>
 
 The features of the input sequence are extracted using linear layers.
 
@@ -30,7 +30,7 @@ The output's shape is `[batch_size, from_seq_length, features]`.
 
 To illustrate the shape
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 Source: [https://vaclavkosar.com/ml/cross-attention-in-transformer-architecture](https://vaclavkosar.com/ml/cross-attention-in-transformer-architecture)
 
@@ -64,7 +64,7 @@ From and to sequences are the same.
 
 ### Full architecture
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 Source: Attention is all you need.
 
@@ -76,7 +76,7 @@ Uses normal multi-head attention.
 
 ### Decoder-only
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Decoder-only Transformer Architecture</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Decoder-only Transformer Architecture</p></figcaption></figure>
 
 Source: [https://ai.stackexchange.com/questions/40179/how-does-the-decoder-only-transformer-architecture-work](https://ai.stackexchange.com/questions/40179/how-does-the-decoder-only-transformer-architecture-work)
 

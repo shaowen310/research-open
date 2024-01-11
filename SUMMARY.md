@@ -36,7 +36,8 @@
   * [Temporal Difference (TD) Learning](reinforcement-learning/temporal-difference-learning.md)
   * [Deep Q-network (DQN)](reinforcement-learning/deep-q-network-dqn.md)
 * [Deep Learning Models](deep-learning-models/README.md)
-  * [Transformer Quick Guide](deep-learning-models/transformer-quick-guide.md)
+  * [Transformer Quick Guide](deep-learning-models/transformer-quick-guide/README.md)
+    * [transformers implementation](deep-learning-models/transformer-quick-guide/transformers-implementation.md)
   * [GNN](deep-learning-models/gnn/README.md)
     * [Graph Attention Networks](deep-learning-models/gnn/graph-attention-networks.md)
   * [Federated Machine Learning](deep-learning-models/federated-machine-learning/README.md)
@@ -95,6 +96,7 @@
 
 ## LaTeX
 
+* [LaTeX References](latex/latex-references.md)
 * [Algorithm](latex/algorithm.md)
 * [Bibliography](latex/bibliography-management.md)
 * [Equations](latex/equations.md)
