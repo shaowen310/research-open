@@ -72,7 +72,7 @@ Source: Attention is all you need.
 
 ### Encoder-only
 
-Uses normal multi-head attention.
+Uses unmasked multi-head attention.
 
 ### Decoder-only
 
