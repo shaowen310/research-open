@@ -60,6 +60,7 @@
   * [Prompt](nlp/prompt/README.md)
     * [Papers](nlp/prompt/papers.md)
   * [Open Information Extraction](nlp/open-information-extraction.md)
+* [Time Series](time-series.md)
 * [Adversarial Machine Learning](adversarial-machine-learning/README.md)
   * [Exploratory Attack](adversarial-machine-learning/exploratory-attack/README.md)
     * [Model Inversion Attack](adversarial-machine-learning/exploratory-attack/model-inversion-attack.md)
